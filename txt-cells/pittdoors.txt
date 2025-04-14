@@ -1,0 +1,144 @@
+name ::: BLD12Door01 "Door" [DOOR:0002E2B5]
+             edid :::
+ (from door) fid  ::: HaventoAshurPalaceREF [REFR:01001505] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 3,0)
+ (to door)   xtel ::: DLC01AshurDoor2REF [REFR:01007E01] (places DLC01AshurDoor2 "Door" [DOOR:01008886] in GRUP Cell Persistent Children of DLC01TowerEntrance "Haven Entrance" [CELL:01007D87])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: HaventoSteelMillREF [REFR:01001506] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 0,-1)
+ (to door)   xtel ::: SteelMilltoHavenREF [REFR:010011B8] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: HaventoMarketSquareREF [REFR:01001507] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,-1)
+ (to door)   xtel ::: MarketSquaretoHavenRef [REFR:0100150E] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)
+name ::: DoorStorefront01 "Door" [DOOR:000BEAFC]
+             edid :::
+ (from door) fid  ::: [REFR:0100602D] (places DoorStorefront01 "Door" [DOOR:000BEAFC] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 2,1)
+ (to door)   xtel ::: [REFR:010060A0] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01zUptownApt "Abandoned Apartments" [CELL:0100602C])
+name ::: DoorStorefront01 "Door" [DOOR:000BEAFC]
+             edid :::
+ (from door) fid  ::: [REFR:0100602E] (places DoorStorefront01 "Door" [DOOR:000BEAFC] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,1)
+ (to door)   xtel ::: [REFR:010061B2] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01zUptownApt "Abandoned Apartments" [CELL:0100602C])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: [REFR:01006973] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 2,1)
+ (to door)   xtel ::: DLC01PowertoUptownREF [REFR:010066B2] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC01PowerPlant "Pitt Underground" [CELL:01006355])
+name ::: OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34]
+             edid :::
+ (from door) fid  ::: [REFR:0100A36E] (places OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,-1)
+ (to door)   xtel ::: MarketSquaretoHavenPREQ03Ref [REFR:01009AFE] (places OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: SteelMillExteriortoSteelMill02REF [REFR:0100150F] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 1,0)
+ (to door)   xtel ::: SteelMill02toSteelMillExteriorREF [REFR:010011C0] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01SteelMill02 "Abandoned Area" [CELL:010011AB])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC01SteelMillExteriortoWernherHideoutREF [REFR:01004627] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at -1,-1)
+ (to door)   xtel ::: DLC01WernherHideouttoSteelMillExtREF [REFR:01004626] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01WernherHideout "Wernher's Hideout" [CELL:01000F3E])
+name ::: SewerSiloExit01 "Sewer Entrance" [DOOR:00060733]
+             edid :::
+ (from door) fid  ::: DLC01SteelYardtoPowerPlantREF [REFR:01006971] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 0,1)
+ (to door)   xtel ::: DLC01PowertoSteelYardREF [REFR:010066C1] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC01PowerPlant "Pitt Underground" [CELL:01006355])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC01SMEtoSupplyPlantREF [REFR:010094A7] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 0,0)
+ (to door)   xtel ::: DLCSupplytoExteriorREF [REFR:01008E34] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01SupplyPlant "Supply Plant" [CELL:010080AA])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: MarketSquaretoMideaHutREF [REFR:01001503] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)
+ (to door)   xtel ::: DLC01MideaHuttoMarketSquareREF [REFR:0100108F] (places DLC01MideaHutToMarketSquare "Door" [DOOR:010068B9] in GRUP Cell Persistent Children of DLC01MideaHut "Midea's Quarters" [CELL:01000F3C])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: MarketSquaretoSteelMill01REF [REFR:0100150A] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 0,1)
+ (to door)   xtel ::: SteelMill01toMarketSquareREF [REFR:010011B7] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+name ::: DLCPittEntranceDoor01 "Gate" [DOOR:01006327]
+             edid :::
+ (from door) fid  ::: MarketSquaretoPittWorldREF [REFR:0100150B] (places DLCPittEntranceDoor01 "Gate" [DOOR:01006327] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 0,-1)
+ (to door)   xtel ::: PittWorldtoMarketSquareREF [REFR:0100150C] (places DLCPittEntranceDoor01 "Gate" [DOOR:01006327] in GRUP Cell Persistent Children of [CELL:0100099C] (in DLC01PittWorld "The Pitt" [WRLD:010008C0]) at 2,3)
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: MarketSquaretoHavenRef [REFR:0100150E] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)
+ (to door)   xtel ::: HaventoMarketSquareREF [REFR:01001507] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,-1)
+name ::: OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34]
+             edid :::
+ (from door) fid  ::: MarketSquaretoHavenPREQ03Ref [REFR:01009AFE] (places OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)
+ (to door)   xtel ::: [REFR:0100A36E] (places OffDoorMetalDoor01EXTERIORminUse "Door" [DOOR:000B5C34] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,-1)
+name ::: DLCPittEntranceDoor01 "Gate" [DOOR:01006327]
+             edid :::
+ (from door) fid  ::: PittWorldtoMarketSquareREF [REFR:0100150C] (places DLCPittEntranceDoor01 "Gate" [DOOR:01006327] in GRUP Cell Persistent Children of [CELL:0100099C] (in DLC01PittWorld "The Pitt" [WRLD:010008C0]) at 2,3)
+ (to door)   xtel ::: MarketSquaretoPittWorldREF [REFR:0100150B] (places DLCPittEntranceDoor01 "Gate" [DOOR:01006327] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 0,-1)
+name ::: DLC01SlaveCampToPittDoor "Door" [DOOR:01006334]
+             edid :::
+ (from door) fid  ::: SlaveCamptoPittWorldREF [REFR:010009A9] (places DLC01SlaveCampToPittDoor "Door" [DOOR:01006334] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -19,30)
+ (to door)   xtel ::: [REFR:01004E8F] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC01TrainTunnel "Pitt Tunnel" [CELL:01004CD7])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC01PowertoUptownREF [REFR:010066B2] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC01PowerPlant "Pitt Underground" [CELL:01006355])
+ (to door)   xtel ::: [REFR:01006973] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 2,1)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: DLC01PowertoSteelYardREF [REFR:010066C1] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC01PowerPlant "Pitt Underground" [CELL:01006355])
+ (to door)   xtel ::: DLC01SteelYardtoPowerPlantREF [REFR:01006971] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 0,1)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLCSupplytoExteriorREF [REFR:01008E34] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01SupplyPlant "Supply Plant" [CELL:010080AA])
+ (to door)   xtel ::: DLC01SMEtoSupplyPlantREF [REFR:010094A7] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 0,0)
+name ::: DLC01AshurDoor2 "Door" [DOOR:01008886]
+             edid :::
+ (from door) fid  ::: DLC01AshurDoor2REF [REFR:01007E01] (places DLC01AshurDoor2 "Door" [DOOR:01008886] in GRUP Cell Persistent Children of DLC01TowerEntrance "Haven Entrance" [CELL:01007D87])
+ (to door)   xtel ::: HaventoAshurPalaceREF [REFR:01001505] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 3,0)
+name ::: HotelElevatorDoor01 "Elevator" [DOOR:00061907]
+             edid :::
+ (from door) fid  ::: [REFR:01007E02] (places HotelElevatorDoor01 "Elevator" [DOOR:00061907] in GRUP Cell Persistent Children of DLC01TowerEntrance "Haven Entrance" [CELL:01007D87])
+ (to door)   xtel ::: AshurPalacetoHavenREF [REFR:010011B5] (places DLC01AshurDoor1 "Door" [DOOR:01002A0D] in GRUP Cell Persistent Children of DLC01AshurPalace "Haven" [CELL:010011AD])
+name ::: DLC01AshurDoor1 "Door" [DOOR:01002A0D]
+             edid :::
+ (from door) fid  ::: AshurPalacetoHavenREF [REFR:010011B5] (places DLC01AshurDoor1 "Door" [DOOR:01002A0D] in GRUP Cell Persistent Children of DLC01AshurPalace "Haven" [CELL:010011AD])
+ (to door)   xtel ::: [REFR:01007E02] (places HotelElevatorDoor01 "Elevator" [DOOR:00061907] in GRUP Cell Persistent Children of DLC01TowerEntrance "Haven Entrance" [CELL:01007D87])
+name ::: OffDoorHotelSmL01 "Door" [DOOR:000B0CD1]
+             edid :::
+ (from door) fid  ::: SteelMill01toMarketSquareREF [REFR:010011B7] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+ (to door)   xtel ::: MarketSquaretoSteelMill01REF [REFR:0100150A] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 0,1)
+name ::: OffDoorHotelSmL01 "Door" [DOOR:000B0CD1]
+             edid :::
+ (from door) fid  ::: SteelMilltoHavenREF [REFR:010011B8] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+ (to door)   xtel ::: HaventoSteelMillREF [REFR:01001506] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 0,-1)
+name ::: OffDoorMetalSmL02b "Door" [DOOR:0001F5FB]
+             edid :::
+ (from door) fid  ::: SteelMill01to02REF [REFR:01001509] (places OffDoorMetalSmL02b "Door" [DOOR:0001F5FB] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+ (to door)   xtel ::: SteelMill02to01REF [REFR:010011C1] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of DLC01SteelMill02 "Abandoned Area" [CELL:010011AB])
+name ::: DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE]
+             edid :::
+ (from door) fid  ::: SteelMill03to04REF [REFR:01001510] (places DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+ (to door)   xtel ::: SteelMill04to03REF [REFR:01001520] (places DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE] in GRUP Cell Persistent Children of DLC01SteelMill04 "The Hole" [CELL:01001338])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: SteelMill02toSteelMillExteriorREF [REFR:010011C0] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01SteelMill02 "Abandoned Area" [CELL:010011AB])
+ (to door)   xtel ::: SteelMillExteriortoSteelMill02REF [REFR:0100150F] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at 1,0)
+name ::: OffDoorMetalSmL02a "Door" [DOOR:0001F5F9]
+             edid :::
+ (from door) fid  ::: SteelMill02to01REF [REFR:010011C1] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of DLC01SteelMill02 "Abandoned Area" [CELL:010011AB])
+ (to door)   xtel ::: SteelMill01to02REF [REFR:01001509] (places OffDoorMetalSmL02b "Door" [DOOR:0001F5FB] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC01WernherHideouttoSteelMillExtREF [REFR:01004626] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC01WernherHideout "Wernher's Hideout" [CELL:01000F3E])
+ (to door)   xtel ::: DLC01SteelMillExteriortoWernherHideoutREF [REFR:01004627] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100133A] (in DLC01SteelMillExterior "The Steelyard" [WRLD:010011A9]) at -1,-1)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:01004E8F] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC01TrainTunnel "Pitt Tunnel" [CELL:01004CD7])
+ (to door)   xtel ::: SlaveCamptoPittWorldREF [REFR:010009A9] (places DLC01SlaveCampToPittDoor "Door" [DOOR:01006334] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -19,30)
+name ::: OffDoorHotelSmL01 "Door" [DOOR:000B0CD1]
+             edid :::
+ (from door) fid  ::: [REFR:010060A0] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01zUptownApt "Abandoned Apartments" [CELL:0100602C])
+ (to door)   xtel ::: [REFR:0100602D] (places DoorStorefront01 "Door" [DOOR:000BEAFC] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 2,1)
+name ::: OffDoorHotelSmL01 "Door" [DOOR:000B0CD1]
+             edid :::
+ (from door) fid  ::: [REFR:010061B2] (places OffDoorHotelSmL01 "Door" [DOOR:000B0CD1] in GRUP Cell Persistent Children of DLC01zUptownApt "Abandoned Apartments" [CELL:0100602C])
+ (to door)   xtel ::: [REFR:0100602E] (places DoorStorefront01 "Door" [DOOR:000BEAFC] in GRUP Cell Persistent Children of [CELL:0100133B] (in DLC01Haven "Uptown" [WRLD:010011AA]) at 1,1)
+name ::: DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE]
+             edid :::
+ (from door) fid  ::: SteelMill04to03REF [REFR:01001520] (places DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE] in GRUP Cell Persistent Children of DLC01SteelMill04 "The Hole" [CELL:01001338])
+ (to door)   xtel ::: SteelMill03to04REF [REFR:01001510] (places DLCPittArenaPipe01 "Rusty Gate" [DOOR:010029EE] in GRUP Cell Persistent Children of DLC01SteelMill01 "The Mill" [CELL:010011AC])
+name ::: DLC01MideaHutToMarketSquare "Door" [DOOR:010068B9]
+             edid :::
+ (from door) fid  ::: DLC01MideaHuttoMarketSquareREF [REFR:0100108F] (places DLC01MideaHutToMarketSquare "Door" [DOOR:010068B9] in GRUP Cell Persistent Children of DLC01MideaHut "Midea's Quarters" [CELL:01000F3C])
+ (to door)   xtel ::: MarketSquaretoMideaHutREF [REFR:01001503] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100133F] (in DLC01MarketSquare "Downtown" [WRLD:01000D91]) at 1,1)

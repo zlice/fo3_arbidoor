@@ -1,0 +1,448 @@
+name ::: DLC04BogDoor01 "Door" [DOOR:0100C6F1]
+             edid :::
+ (from door) fid  ::: DLC04BogDoor01REF [REFR:0100A8E0] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of [CELL:0100A8B5] (in DLC4Bog "Sacred Bog" [WRLD:0100A88C]) at 5,0)
+ (to door)   xtel ::: DLC04ToBogREF [REFR:0100E931] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of DLC04BogEntrance "Bog Entrance" [CELL:0100E91D])
+name ::: DLC04MDoorBig01 "Door" [DOOR:01002F78]
+             edid :::
+ (from door) fid  ::: [REFR:01003F16] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-3)
+ (to door)   xtel ::: DLC04EntranceDoor [REFR:0100311F] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of DLC04Mansion01 "Calvert Mansion" [CELL:01002881])
+name ::: DLC04MDoorBig01Cathedral "Door" [DOOR:01009278]
+             edid :::
+ (from door) fid  ::: DLC04CathExtDoor [REFR:0100438F] (places DLC04MDoorBig01Cathedral "Door" [DOOR:01009278] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,6)
+ (to door)   xtel ::: DLC04CathedralInteriorDoor [REFR:010042E4] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of DLC04Cathedral01 "Ark & Dove Cathedral" [CELL:010040AC])
+name ::: SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36]
+             edid :::
+ (from door) fid  ::: DLC04SeaCaveEntrance [REFR:0100583B] (places SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 6,7)
+ (to door)   xtel ::: [REFR:010093A7] (places DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C] in GRUP Cell Persistent Children of DLC04SeaCave "Sea Cave" [CELL:0100928B])
+name ::: SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36]
+             edid :::
+ (from door) fid  ::: [REFR:0100643D] (places SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,-3)
+ (to door)   xtel ::: [REFR:01007357] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC04SpyBunker "Chinese Intelligence Bunker" [CELL:01007323])
+name ::: DLC04LighthouseDoor "Door" [DOOR:01006BE4]
+             edid :::
+ (from door) fid  ::: DLC04LighthouseDoorExteriorREF [REFR:01006BE5] (places DLC04LighthouseDoor "Door" [DOOR:01006BE4] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-6)
+ (to door)   xtel ::: [REFR:0100F080] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:010081ED] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,1)
+ (to door)   xtel ::: [REFR:010081C9] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1D "Room 1D" [CELL:01008121])
+name ::: DLC04MDoorBig01 "Door" [DOOR:01002F78]
+             edid :::
+ (from door) fid  ::: WhitehillFrontdoorEXT [REFR:01008311] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -6,2)
+ (to door)   xtel ::: WhitehillFrontDoor [REFR:01004F15] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+name ::: DLC04MDoorSmL01 "Door" [DOOR:01002F77]
+             edid :::
+ (from door) fid  ::: WhitehillBackDoorExt [REFR:01008312] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -7,2)
+ (to door)   xtel ::: WhitehillBackDoor [REFR:01004E71] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+name ::: DLC04WellTopDOOR "Well" [DOOR:0100951D]
+             edid :::
+ (from door) fid  ::: DLC04WellEntranceREF [REFR:01006B69] (places DLC04WellTopDOOR "Well" [DOOR:0100951D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 5,6)
+ (to door)   xtel ::: DLC04SeaCaveLadderREF [REFR:0100951A] (places DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C] in GRUP Cell Persistent Children of DLC04SeaCave "Sea Cave" [CELL:0100928B])
+name ::: DLC04BogDoor01 "Door" [DOOR:0100C6F1]
+             edid :::
+ (from door) fid  ::: DLC04BogDoorREF [REFR:01007AFA] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -8,5)
+ (to door)   xtel ::: [REFR:0100E925] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of DLC04BogEntrance "Bog Entrance" [CELL:0100E91D])
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100AFEC] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+ (to door)   xtel ::: [REFR:0100AFDD] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent01 "Marcella's Tent" [CELL:0100AFDC])
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100AE73] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,1)
+ (to door)   xtel ::: [REFR:0100B05E] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04RitualSiteBasement "Burned-Out Basement" [CELL:0100B045])
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:0100B46A] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,-4)
+ (to door)   xtel ::: [REFR:010073AE] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyTunnel "Runoff Pipe" [CELL:0100731F])
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100B5D3] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -4,6)
+ (to door)   xtel ::: [REFR:0100B58E] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04ShackTrapperBasement "Cellar" [CELL:0100B58A])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100A55C] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -4,6)
+ (to door)   xtel ::: [REFR:0100821A] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackTrapper "Trapper's Shack" [CELL:0100811F])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: SteamboatExtDoor [REFR:0100B86B] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,-2)
+ (to door)   xtel ::: PLSteamboatEngineDoor [REFR:0100BF18] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04SteamboatInt01 "Engine Room" [CELL:0100B85A])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100B57E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+ (to door)   xtel ::: [REFR:0100BF41] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackTorture "Interrogation Room A" [CELL:0100BF1A])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100BF62] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+ (to door)   xtel ::: [REFR:0100BF1E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackTorture02 "Interrogation Room B" [CELL:0100BF1D])
+name ::: DLC04Mudhole01 "Ladder" [DOOR:0100C0B0]
+             edid :::
+ (from door) fid  ::: DLC04SurveySiteExt01 [REFR:0100C0B3] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,8)
+ (to door)   xtel ::: DLC04SurveySiteInt01 [REFR:01002F2C] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole01 "Excavated Muck Hole" [CELL:01002EDF])
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: DLC04FF05SubHatchExtREF [REFR:010088F2] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,-5)
+ (to door)   xtel ::: [REFR:0100C2C5] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Submarine "SSN-37-1A" [CELL:0100C2B4])
+name ::: DLC04Mudhole01 "Ladder" [DOOR:0100C0B0]
+             edid :::
+ (from door) fid  ::: [REFR:0100C50D] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,4)
+ (to door)   xtel ::: [REFR:01008161] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole02 "Excavated Muck Hole" [CELL:01008126])
+name ::: DLC04Mudhole01 "Ladder" [DOOR:0100C0B0]
+             edid :::
+ (from door) fid  ::: [REFR:0100C532] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -7,8)
+ (to door)   xtel ::: DLC04SurveyHoleLadderInt03 [REFR:01008174] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole03 "Excavated Muck Hole" [CELL:01008125])
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C0B8] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+ (to door)   xtel ::: [REFR:0100C824] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent04 "Administration Tent" [CELL:0100C6FE])
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C0B9] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+ (to door)   xtel ::: [REFR:0100C816] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent02 "Medical Tent" [CELL:0100C700])
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C0BA] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+ (to door)   xtel ::: [REFR:0100C81C] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent03 "Medical Tent" [CELL:0100C6FF])
+name ::: DLC04LighthouseDoor "Door" [DOOR:01006BE4]
+             edid :::
+ (from door) fid  ::: [REFR:0100CA58] (places DLC04LighthouseDoor "Door" [DOOR:01006BE4] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-6)
+ (to door)   xtel ::: [REFR:0100F082] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: [REFR:0100D202] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,0)
+ (to door)   xtel ::: [REFR:0100CAEC] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04Bank "People's Bank of Point Lookout" [CELL:0100C828])
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100D6B1] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+ (to door)   xtel ::: [REFR:0100D6BE] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04CampMorgue "Morgue" [CELL:0100D6AF])
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: [REFR:0100DA2E] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,0)
+ (to door)   xtel ::: [REFR:0100DA2D] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04Recruiter "Recruitment Station" [CELL:0100D971])
+name ::: CaveDoorToCave "Door" [DOOR:00045264]
+             edid :::
+ (from door) fid  ::: [REFR:0100DDD6] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,4)
+ (to door)   xtel ::: [REFR:010081C1] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine01 "Herzog Mine" [CELL:01008123])
+name ::: SewerSiloExit01 "Sewer Entrance" [DOOR:00060733]
+             edid :::
+ (from door) fid  ::: DetentionCampEscapeSewer [REFR:0100DF5A] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,7)
+ (to door)   xtel ::: [REFR:0100DF25] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of DLC04CampPipe01 "Septic Tunnel Access" [CELL:0100DF23])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100DDFB] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 7,6)
+ (to door)   xtel ::: [REFR:0100E17E] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC04CoastalGrotto01 "Coastal Grotto" [CELL:0100F28F])
+name ::: DLC04BargeHatch "Hatch" [DOOR:0100E27D]
+             edid :::
+ (from door) fid  ::: [REFR:0100E27E] (places DLC04BargeHatch "Hatch" [DOOR:0100E27D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 6,1)
+ (to door)   xtel ::: [REFR:0100E282] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Barge "Belowdecks" [CELL:0100E27C])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:0100B2D2] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+ (to door)   xtel ::: [REFR:0100E804] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC04CampOffices "Administration" [CELL:0100E798])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100BFF8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+ (to door)   xtel ::: [REFR:0100E94A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackBunkhouse02 "Bunkhouse B" [CELL:0100E793])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100C04A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+ (to door)   xtel ::: [REFR:0100E906] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackBunkhouse01 "Bunkhouse A" [CELL:0100E794])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100CDD8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,1)
+ (to door)   xtel ::: [REFR:0100E8AC] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1K "Room 1K" [CELL:0100E797])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100CDDB] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,1)
+ (to door)   xtel ::: [REFR:0100E8AE] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1G "Room 1G" [CELL:0100E796])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100CDE8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,0)
+ (to door)   xtel ::: [REFR:0100E8E3] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelOffice "Homestead Motel Office" [CELL:0100E795])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100A55B] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,5)
+ (to door)   xtel ::: [REFR:01008214] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackMoonshiner "Moonshiner Shack" [CELL:01008120])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100B14E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,5)
+ (to door)   xtel ::: [REFR:0100EDB0] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04ShackMoonshiner "Moonshiner Shack" [CELL:01008120])
+name ::: DLC04Mudhole01 "Ladder" [DOOR:0100C0B0]
+             edid :::
+ (from door) fid  ::: [REFR:0100F030] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,5)
+ (to door)   xtel ::: DLC04LadderRef [REFR:0100F7B3] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100A546] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,2)
+ (to door)   xtel ::: [REFR:01008264] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackHardwareStore "Haley's Hardware" [CELL:0100811E])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100A54A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -6,4)
+ (to door)   xtel ::: [REFR:0100826A] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackGrower "Run-down Shack" [CELL:0100811D])
+name ::: DLC04BargeHatch "Hatch" [DOOR:0100E27D]
+             edid :::
+ (from door) fid  ::: DLC04LabEscapeHatchREF [REFR:0101099E] (places DLC04BargeHatch "Hatch" [DOOR:0100E27D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-7)
+ (to door)   xtel ::: [REFR:0101099D] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Lab01 "Underground Lab" [CELL:0100977F])
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:01011D64] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,-3)
+ (to door)   xtel ::: [REFR:01011D85] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04PanicRoom "Panic Room" [CELL:01010AC1])
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: DLC04BoardwalktoDLC04zzWarehouse [REFR:01011FA2] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,0)
+ (to door)   xtel ::: DLC04zzWarehousetoBoardwalkREF [REFR:01011EF3] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04zzWarehouse "Warehouse" [CELL:01010AC0])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: DLC04CWSteamboatDoorREF [REFR:0100D3D8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 11,-20)
+ (to door)   xtel ::: CWSteamboatEngineDoor [REFR:0101034E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04SteamboatInt01 "Engine Room" [CELL:0100B85A])
+name ::: CaveDoor01 "Door" [DOOR:00015A1B]
+             edid :::
+ (from door) fid  ::: [REFR:01008866] (places CaveDoor01 "Door" [DOOR:00015A1B] in GRUP Cell Persistent Children of DLC04Mine03 "Blackdamp Shaft" [CELL:01008853])
+ (to door)   xtel ::: [REFR:01008869] (places CaveDoor01 "Door" [DOOR:00015A1B] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: DLC04SurveySiteInt01 [REFR:01002F2C] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole01 "Excavated Muck Hole" [CELL:01002EDF])
+ (to door)   xtel ::: DLC04SurveySiteExt01 [REFR:0100C0B3] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,8)
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:01011D85] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04PanicRoom "Panic Room" [CELL:01010AC1])
+ (to door)   xtel ::: [REFR:01011D64] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,-3)
+name ::: DLC04MDoorBig01 "Door" [DOOR:01002F78]
+             edid :::
+ (from door) fid  ::: DLC04EntranceDoor [REFR:0100311F] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of DLC04Mansion01 "Calvert Mansion" [CELL:01002881])
+ (to door)   xtel ::: [REFR:01003F16] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-3)
+name ::: DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1]
+             edid :::
+ (from door) fid  ::: [REFR:0100F8D2] (places DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1] in GRUP Cell Persistent Children of DLC04BlackhallManor02 "Basement" [CELL:0100F8AB])
+ (to door)   xtel ::: [REFR:01004FC0] (places DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100D6BE] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04CampMorgue "Morgue" [CELL:0100D6AF])
+ (to door)   xtel ::: [REFR:0100D6B1] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+name ::: SewerLidExit01 "Manhole" [DOOR:00060732]
+             edid :::
+ (from door) fid  ::: MorgueSewerExit [REFR:0100DF58] (places SewerLidExit01 "Manhole" [DOOR:00060732] in GRUP Cell Persistent Children of DLC04CampMorgue "Morgue" [CELL:0100D6AF])
+ (to door)   xtel ::: PipeExitToMorgue [REFR:0100DF24] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of DLC04CampPipe01 "Septic Tunnel Access" [CELL:0100DF23])
+name ::: CaveDoorToCave "Door" [DOOR:00045264]
+             edid :::
+ (from door) fid  ::: [REFR:010081C0] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine01 "Herzog Mine" [CELL:01008123])
+ (to door)   xtel ::: [REFR:010081C2] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+name ::: CaveDoorToCave "Door" [DOOR:00045264]
+             edid :::
+ (from door) fid  ::: [REFR:010081C1] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine01 "Herzog Mine" [CELL:01008123])
+ (to door)   xtel ::: [REFR:0100DDD6] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,4)
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: DLC04zzWarehousetoBoardwalkREF [REFR:01011EF3] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04zzWarehouse "Warehouse" [CELL:01010AC0])
+ (to door)   xtel ::: DLC04BoardwalktoDLC04zzWarehouse [REFR:01011FA2] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,0)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:0100E804] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC04CampOffices "Administration" [CELL:0100E798])
+ (to door)   xtel ::: [REFR:0100B2D2] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+name ::: CaveDoorToCave "Door" [DOOR:00045264]
+             edid :::
+ (from door) fid  ::: [REFR:010081C2] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+ (to door)   xtel ::: [REFR:010081C0] (places CaveDoorToCave "Door" [DOOR:00045264] in GRUP Cell Persistent Children of DLC04Mine01 "Herzog Mine" [CELL:01008123])
+name ::: CaveDoor01 "Door" [DOOR:00015A1B]
+             edid :::
+ (from door) fid  ::: [REFR:01008869] (places CaveDoor01 "Door" [DOOR:00015A1B] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+ (to door)   xtel ::: [REFR:01008866] (places CaveDoor01 "Door" [DOOR:00015A1B] in GRUP Cell Persistent Children of DLC04Mine03 "Blackdamp Shaft" [CELL:01008853])
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: DLC04LadderRef [REFR:0100F7B3] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Mine02 "Miner's Rest" [CELL:01008122])
+ (to door)   xtel ::: [REFR:0100F030] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,5)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100E8AC] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1K "Room 1K" [CELL:0100E797])
+ (to door)   xtel ::: [REFR:0100CDD8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,1)
+name ::: DLC04BogDoor01 "Door" [DOOR:0100C6F1]
+             edid :::
+ (from door) fid  ::: [REFR:0100E925] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of DLC04BogEntrance "Bog Entrance" [CELL:0100E91D])
+ (to door)   xtel ::: DLC04BogDoorREF [REFR:01007AFA] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -8,5)
+name ::: DLC04BogDoor01 "Door" [DOOR:0100C6F1]
+             edid :::
+ (from door) fid  ::: DLC04ToBogREF [REFR:0100E931] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of DLC04BogEntrance "Bog Entrance" [CELL:0100E91D])
+ (to door)   xtel ::: DLC04BogDoor01REF [REFR:0100A8E0] (places DLC04BogDoor01 "Door" [DOOR:0100C6F1] in GRUP Cell Persistent Children of [CELL:0100A8B5] (in DLC4Bog "Sacred Bog" [WRLD:0100A88C]) at 5,0)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:010081C9] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1D "Room 1D" [CELL:01008121])
+ (to door)   xtel ::: [REFR:010081ED] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,1)
+name ::: UtlDoorBg01 "Door" [DOOR:0003D205]
+             edid :::
+ (from door) fid  ::: [REFR:0100F2D2] (places UtlDoorBg01 "Door" [DOOR:0003D205] in GRUP Cell Persistent Children of DLC04CoastalGrotto02 "Plik's Safari" [CELL:01009B39])
+ (to door)   xtel ::: DLC04FF06ArenaDoorREF [REFR:01009B7A] (places UtlDoorBg01 "Door" [DOOR:0003D205] in GRUP Cell Persistent Children of DLC04CoastalGrotto01 "Coastal Grotto" [CELL:0100F28F])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100E8AE] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelRoom1G "Room 1G" [CELL:0100E796])
+ (to door)   xtel ::: [REFR:0100CDDB] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,1)
+name ::: DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC]
+             edid :::
+ (from door) fid  ::: [REFR:01008214] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackMoonshiner "Moonshiner Shack" [CELL:01008120])
+ (to door)   xtel ::: [REFR:0100A55B] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,5)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100EDB0] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04ShackMoonshiner "Moonshiner Shack" [CELL:01008120])
+ (to door)   xtel ::: [REFR:0100B14E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,5)
+name ::: DLC04MDoorBig01 "Door" [DOOR:01002F78]
+             edid :::
+ (from door) fid  ::: DLC04CathedralInteriorDoor [REFR:010042E4] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of DLC04Cathedral01 "Ark & Dove Cathedral" [CELL:010040AC])
+ (to door)   xtel ::: DLC04CathExtDoor [REFR:0100438F] (places DLC04MDoorBig01Cathedral "Door" [DOOR:01009278] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,6)
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100E17E] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC04CoastalGrotto01 "Coastal Grotto" [CELL:0100F28F])
+ (to door)   xtel ::: [REFR:0100DDFB] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 7,6)
+name ::: UtlDoorBg01 "Door" [DOOR:0003D205]
+             edid :::
+ (from door) fid  ::: DLC04FF06ArenaDoorREF [REFR:01009B7A] (places UtlDoorBg01 "Door" [DOOR:0003D205] in GRUP Cell Persistent Children of DLC04CoastalGrotto01 "Coastal Grotto" [CELL:0100F28F])
+ (to door)   xtel ::: [REFR:0100F2D2] (places UtlDoorBg01 "Door" [DOOR:0003D205] in GRUP Cell Persistent Children of DLC04CoastalGrotto02 "Plik's Safari" [CELL:01009B39])
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100E8E3] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04MotelOffice "Homestead Motel Office" [CELL:0100E795])
+ (to door)   xtel ::: [REFR:0100CDE8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,0)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: [REFR:01007357] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC04SpyBunker "Chinese Intelligence Bunker" [CELL:01007323])
+ (to door)   xtel ::: [REFR:0100643D] (places SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 3,-3)
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:01007359] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyBunker "Chinese Intelligence Bunker" [CELL:01007323])
+ (to door)   xtel ::: [REFR:010073A7] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyTunnel "Runoff Pipe" [CELL:0100731F])
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: [REFR:0100DA2D] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04Recruiter "Recruitment Station" [CELL:0100D971])
+ (to door)   xtel ::: [REFR:0100DA2E] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,0)
+name ::: DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC]
+             edid :::
+ (from door) fid  ::: [REFR:0100821A] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackTrapper "Trapper's Shack" [CELL:0100811F])
+ (to door)   xtel ::: [REFR:0100A55C] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -4,6)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100BF1E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackTorture02 "Interrogation Room B" [CELL:0100BF1D])
+ (to door)   xtel ::: [REFR:0100BF62] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100B05E] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04RitualSiteBasement "Burned-Out Basement" [CELL:0100B045])
+ (to door)   xtel ::: [REFR:0100AE73] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,1)
+name ::: DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C]
+             edid :::
+ (from door) fid  ::: [REFR:010093A7] (places DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C] in GRUP Cell Persistent Children of DLC04SeaCave "Sea Cave" [CELL:0100928B])
+ (to door)   xtel ::: DLC04SeaCaveEntrance [REFR:0100583B] (places SatelliteFacilityDeckHatch01load "Hatch" [DOOR:00064D36] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 6,7)
+name ::: DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C]
+             edid :::
+ (from door) fid  ::: DLC04SeaCaveLadderREF [REFR:0100951A] (places DLC04SeaCaveLadderDOOR "Ladder" [DOOR:0100951C] in GRUP Cell Persistent Children of DLC04SeaCave "Sea Cave" [CELL:0100928B])
+ (to door)   xtel ::: DLC04WellEntranceREF [REFR:01006B69] (places DLC04WellTopDOOR "Well" [DOOR:0100951D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 5,6)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: PLSteamboatEngineDoor [REFR:0100BF18] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04SteamboatInt01 "Engine Room" [CELL:0100B85A])
+ (to door)   xtel ::: SteamboatExtDoor [REFR:0100B86B] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,-2)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: CWSteamboatEngineDoor [REFR:0101034E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04SteamboatInt01 "Engine Room" [CELL:0100B85A])
+ (to door)   xtel ::: DLC04CWSteamboatDoorREF [REFR:0100D3D8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 11,-20)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100E906] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackBunkhouse01 "Bunkhouse A" [CELL:0100E794])
+ (to door)   xtel ::: [REFR:0100C04A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,8)
+name ::: DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543]
+             edid :::
+ (from door) fid  ::: [REFR:0100B58E] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of DLC04ShackTrapperBasement "Cellar" [CELL:0100B58A])
+ (to door)   xtel ::: [REFR:0100B5D3] (places DLC04ShackDoorBasement01 "Shack Door" [DOOR:0100A543] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -4,6)
+name ::: DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC]
+             edid :::
+ (from door) fid  ::: [REFR:01008264] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackHardwareStore "Haley's Hardware" [CELL:0100811E])
+ (to door)   xtel ::: [REFR:0100A546] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 0,2)
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C816] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent02 "Medical Tent" [CELL:0100C700])
+ (to door)   xtel ::: [REFR:0100C0B9] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: [REFR:0100C2C5] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Submarine "SSN-37-1A" [CELL:0100C2B4])
+ (to door)   xtel ::: DLC04FF05SubHatchExtREF [REFR:010088F2] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,-5)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100E94A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackBunkhouse02 "Bunkhouse B" [CELL:0100E793])
+ (to door)   xtel ::: [REFR:0100BFF8] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+name ::: DLC04LabDoorSm01 "Door" [DOOR:0100DF1D]
+             edid :::
+ (from door) fid  ::: [REFR:010097C3] (places DLC04LabDoorSm01 "Door" [DOOR:0100DF1D] in GRUP Cell Persistent Children of DLC04Lab01 "Underground Lab" [CELL:0100977F])
+ (to door)   xtel ::: [REFR:0100F081] (places DLC04LabDoorSm01MinUse "Door" [DOOR:0101183D] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: [REFR:0101099D] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Lab01 "Underground Lab" [CELL:0100977F])
+ (to door)   xtel ::: DLC04LabEscapeHatchREF [REFR:0101099E] (places DLC04BargeHatch "Hatch" [DOOR:0100E27D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-7)
+name ::: DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC]
+             edid :::
+ (from door) fid  ::: [REFR:0100826A] (places DLC04ShackDoorInterior01 "Storm Door" [DOOR:0100F2DC] in GRUP Cell Persistent Children of DLC04ShackGrower "Run-down Shack" [CELL:0100811D])
+ (to door)   xtel ::: [REFR:0100A54A] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -6,4)
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C81C] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent03 "Medical Tent" [CELL:0100C6FF])
+ (to door)   xtel ::: [REFR:0100C0BA] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+name ::: LPipeDoor01 "Grate" [DOOR:0007F8FE]
+             edid :::
+ (from door) fid  ::: PipeExitToMorgue [REFR:0100DF24] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of DLC04CampPipe01 "Septic Tunnel Access" [CELL:0100DF23])
+ (to door)   xtel ::: MorgueSewerExit [REFR:0100DF58] (places SewerLidExit01 "Manhole" [DOOR:00060732] in GRUP Cell Persistent Children of DLC04CampMorgue "Morgue" [CELL:0100D6AF])
+name ::: LPipeDoor01 "Grate" [DOOR:0007F8FE]
+             edid :::
+ (from door) fid  ::: [REFR:0100DF25] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of DLC04CampPipe01 "Septic Tunnel Access" [CELL:0100DF23])
+ (to door)   xtel ::: DetentionCampEscapeSewer [REFR:0100DF5A] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,7)
+name ::: DLC04MDoorSmL01 "Door" [DOOR:01002F77]
+             edid :::
+ (from door) fid  ::: WhitehillBackDoor [REFR:01004E71] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+ (to door)   xtel ::: WhitehillBackDoorExt [REFR:01008312] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -7,2)
+name ::: DLC04MDoorSmL01 "Door" [DOOR:01002F77]
+             edid :::
+ (from door) fid  ::: WhitehillFrontDoor [REFR:01004F15] (places DLC04MDoorSmL01 "Door" [DOOR:01002F77] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+ (to door)   xtel ::: WhitehillFrontdoorEXT [REFR:01008311] (places DLC04MDoorBig01 "Door" [DOOR:01002F78] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -6,2)
+name ::: DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1]
+             edid :::
+ (from door) fid  ::: [REFR:01004FC0] (places DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1] in GRUP Cell Persistent Children of DLC04BlackhallManor01 "Blackhall Manor" [CELL:01004E2D])
+ (to door)   xtel ::: [REFR:0100F8D2] (places DLC04MDoorSmL01Hidden "Door" [DOOR:01004FC1] in GRUP Cell Persistent Children of DLC04BlackhallManor02 "Basement" [CELL:0100F8AB])
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: [REFR:01008161] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole02 "Excavated Muck Hole" [CELL:01008126])
+ (to door)   xtel ::: [REFR:0100C50D] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -2,4)
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100C824] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent04 "Administration Tent" [CELL:0100C6FE])
+ (to door)   xtel ::: [REFR:0100C0B8] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)
+name ::: DLC04ShackDoor01 "Storm Door" [DOOR:0100A545]
+             edid :::
+ (from door) fid  ::: [REFR:0100BF41] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of DLC04CampShackTorture "Interrogation Room A" [CELL:0100BF1A])
+ (to door)   xtel ::: [REFR:0100B57E] (places DLC04ShackDoor01 "Storm Door" [DOOR:0100A545] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 1,8)
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:010073A7] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyTunnel "Runoff Pipe" [CELL:0100731F])
+ (to door)   xtel ::: [REFR:01007359] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyBunker "Chinese Intelligence Bunker" [CELL:01007323])
+name ::: SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35]
+             edid :::
+ (from door) fid  ::: [REFR:010073AE] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of DLC04SpyTunnel "Runoff Pipe" [CELL:0100731F])
+ (to door)   xtel ::: [REFR:0100B46A] (places SatelliteFacilityDishHatch01load "Hatch" [DOOR:00064D35] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 2,-4)
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: DLC04SurveyHoleLadderInt03 [REFR:01008174] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04surveyHole03 "Excavated Muck Hole" [CELL:01008125])
+ (to door)   xtel ::: [REFR:0100C532] (places DLC04Mudhole01 "Ladder" [DOOR:0100C0B0] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -7,8)
+name ::: DLC04Ladder "Ladder" [DOOR:01002F25]
+             edid :::
+ (from door) fid  ::: [REFR:0100E282] (places DLC04Ladder "Ladder" [DOOR:01002F25] in GRUP Cell Persistent Children of DLC04Barge "Belowdecks" [CELL:0100E27C])
+ (to door)   xtel ::: [REFR:0100E27E] (places DLC04BargeHatch "Hatch" [DOOR:0100E27D] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 6,1)
+name ::: OffDoorSmL01 "Door" [DOOR:000159A6]
+             edid :::
+ (from door) fid  ::: [REFR:0100CAEC] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of DLC04Bank "People's Bank of Point Lookout" [CELL:0100C828])
+ (to door)   xtel ::: [REFR:0100D202] (places OffDoorSmL01 "Door" [DOOR:000159A6] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -1,0)
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: [REFR:0100F080] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+ (to door)   xtel ::: DLC04LighthouseDoorExteriorREF [REFR:01006BE5] (places DLC04LighthouseDoor "Door" [DOOR:01006BE4] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-6)
+name ::: DLC04LabDoorSm01MinUse "Door" [DOOR:0101183D]
+             edid :::
+ (from door) fid  ::: [REFR:0100F081] (places DLC04LabDoorSm01MinUse "Door" [DOOR:0101183D] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+ (to door)   xtel ::: [REFR:010097C3] (places DLC04LabDoorSm01 "Door" [DOOR:0100DF1D] in GRUP Cell Persistent Children of DLC04Lab01 "Underground Lab" [CELL:0100977F])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:0100F082] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC04Lighthouse "Lighthouse" [CELL:0100F05A])
+ (to door)   xtel ::: [REFR:0100CA58] (places DLC04LighthouseDoor "Door" [DOOR:01006BE4] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at 4,-6)
+name ::: WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83]
+             edid :::
+ (from door) fid  ::: [REFR:0100AFDD] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of DLC04MedicalTent01 "Marcella's Tent" [CELL:0100AFDC])
+ (to door)   xtel ::: [REFR:0100AFEC] (places WastelandMarqueeDoor01 "Metal Door" [DOOR:00035E83] in GRUP Cell Persistent Children of [CELL:01003E25] (in DLC4Pointlookout "Point Lookout" [WRLD:01000802]) at -5,-1)

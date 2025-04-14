@@ -1,0 +1,120 @@
+name ::: OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12]
+             edid :::
+ (from door) fid  ::: [REFR:01001885] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:0100161C] (in DLC02ChineseHQ "Chinese HQ" [WRLD:0100161B]) at 0,3)
+ (to door)   xtel ::: [REFR:01001098] (places DLC02ChineseHQDoor "Door" [DOOR:0100CEAC] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 0,3)
+name ::: DLCAnchTentDoorLoadAmerican "Door" [DOOR:0100C198]
+             edid :::
+ (from door) fid  ::: [REFR:010015EE] (places DLCAnchTentDoorLoadAmerican "Door" [DOOR:0100C198] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 0,-4)
+ (to door)   xtel ::: DLC02OA3CommandTentDoorRezMeRef [REFR:010015ED] (places DLC02OA3CommandTentDoor "Door" [DOOR:010029A5] in GRUP Cell Persistent Children of DLC02CommandTent "Command Tent" [CELL:01001411])
+name ::: DLC02ChineseHQDoor "Door" [DOOR:0100CEAC]
+             edid :::
+ (from door) fid  ::: [REFR:01001098] (places DLC02ChineseHQDoor "Door" [DOOR:0100CEAC] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 0,3)
+ (to door)   xtel ::: [REFR:01001885] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:0100161C] (in DLC02ChineseHQ "Chinese HQ" [WRLD:0100161B]) at 0,3)
+name ::: DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66]
+             edid :::
+ (from door) fid  ::: [REFR:01001A97] (places DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 4,1)
+ (to door)   xtel ::: [REFR:01001B46] (places DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64] in GRUP Cell Persistent Children of DLC02CommCenter "Listening Post" [CELL:010019F6])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:01001AD2] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 4,1)
+ (to door)   xtel ::: [REFR:01001B15] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02CommCenter "Listening Post" [CELL:010019F6])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:01001550] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000E2A] (in DLC02Overlook "Artillery Overlook" [WRLD:01000E27]) at 5,-1)
+ (to door)   xtel ::: [REFR:01001458] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02ArtilleryBase "Chinese Artillery Outpost" [CELL:01000E29])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:0100B9B7] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -2,3)
+ (to door)   xtel ::: [REFR:0100B9BF] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02zEndGlacierCave "Cave Passage" [CELL:0100B94C])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:0100B9B1] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -2,3)
+ (to door)   xtel ::: [REFR:0100B9B0] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02zEndGlacierCave "Cave Passage" [CELL:0100B94C])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100B4EF] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -1,3)
+ (to door)   xtel ::: [REFR:0100B529] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02zCliffs02 "Field Storage" [CELL:0100B4EA])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100B4EE] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at 0,1)
+ (to door)   xtel ::: [REFR:0100B4F7] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02zCliffs01 "Field Storage" [CELL:0100B4EB])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:01004D24] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -1,0)
+ (to door)   xtel ::: [REFR:01004D1E] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02GlacierCave "Cave Outpost" [CELL:010047DD])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:010048A9] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at 0,0)
+ (to door)   xtel ::: [REFR:01004947] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02GlacierCave "Cave Outpost" [CELL:010047DD])
+name ::: DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66]
+             edid :::
+ (from door) fid  ::: [REFR:01000D64] (places DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -3,3)
+ (to door)   xtel ::: [REFR:01001426] (places DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64] in GRUP Cell Persistent Children of DLC02ArtilleryBase "Chinese Artillery Outpost" [CELL:01000E29])
+name ::: MetroGateLoad "Metal Gate" [DOOR:0001F920]
+             edid :::
+ (from door) fid  ::: [REFR:010028BC] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of [CELL:01000805] (in DLC02BaileysCrossroads "Bailey's Crossroads" [WRLD:01000804]) at 10,-7)
+ (to door)   xtel ::: DLC02MetroToBaileysLoad [REFR:0100288B] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of DLC02zcBaileysToWasteland "Bailey's Crossroads Metro" [CELL:01002738])
+name ::: DLC02ElevDoor "Freight Elevator" [DOOR:01003EC7]
+             edid :::
+ (from door) fid  ::: DLC02ElevAboveDoorREF [REFR:01003293] (places DLC02ElevDoor "Freight Elevator" [DOOR:01003EC7] in GRUP Cell Persistent Children of [CELL:01000805] (in DLC02BaileysCrossroads "Bailey's Crossroads" [WRLD:01000804]) at 7,-8)
+ (to door)   xtel ::: DLC02VSStoBaileys [REFR:0100136E] (places GenDoor01 "Door" [DOOR:00003C8E] in GRUP Cell Persistent Children of DLC02VSS01 "Outcast Outpost" [CELL:010012B8])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: [REFR:01005691] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 2,-16)
+ (to door)   xtel ::: [REFR:0100287E] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC02zcBaileysToWasteland "Bailey's Crossroads Metro" [CELL:01002738])
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:01004947] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02GlacierCave "Cave Outpost" [CELL:010047DD])
+ (to door)   xtel ::: [REFR:010048A9] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at 0,0)
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:01004D1E] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02GlacierCave "Cave Outpost" [CELL:010047DD])
+ (to door)   xtel ::: [REFR:01004D24] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -1,0)
+name ::: DLC02OA3CommandTentDoor "Door" [DOOR:010029A5]
+             edid :::
+ (from door) fid  ::: DLC02OA3CommandTentDoorRezMeRef [REFR:010015ED] (places DLC02OA3CommandTentDoor "Door" [DOOR:010029A5] in GRUP Cell Persistent Children of DLC02CommandTent "Command Tent" [CELL:01001411])
+ (to door)   xtel ::: [REFR:010015EE] (places DLCAnchTentDoorLoadAmerican "Door" [DOOR:0100C198] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 0,-4)
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:01001B15] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02CommCenter "Listening Post" [CELL:010019F6])
+ (to door)   xtel ::: [REFR:01001AD2] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 4,1)
+name ::: DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64]
+             edid :::
+ (from door) fid  ::: [REFR:01001B46] (places DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64] in GRUP Cell Persistent Children of DLC02CommCenter "Listening Post" [CELL:010019F6])
+ (to door)   xtel ::: [REFR:01001A97] (places DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66] in GRUP Cell Persistent Children of [CELL:01000F1A] (in DLC02AnchorageBattle "Anchorage" [WRLD:01000E28]) at 4,1)
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:0100B9B0] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02zEndGlacierCave "Cave Passage" [CELL:0100B94C])
+ (to door)   xtel ::: [REFR:0100B9B1] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -2,3)
+name ::: DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65]
+             edid :::
+ (from door) fid  ::: [REFR:0100B9BF] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of DLC02zEndGlacierCave "Cave Passage" [CELL:0100B94C])
+ (to door)   xtel ::: [REFR:0100B9B7] (places DLC02OffDoorMetalSmL01 "Door" [DOOR:0100CC65] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -2,3)
+name ::: DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64]
+             edid :::
+ (from door) fid  ::: [REFR:01001426] (places DLC02OffDoorBigMetal01 "Door" [DOOR:0100CC64] in GRUP Cell Persistent Children of DLC02ArtilleryBase "Chinese Artillery Outpost" [CELL:01000E29])
+ (to door)   xtel ::: [REFR:01000D64] (places DLC02OffDoorBigMetal01ExteriorPEN "Door" [DOOR:0100CC66] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -3,3)
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:01001458] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02ArtilleryBase "Chinese Artillery Outpost" [CELL:01000E29])
+ (to door)   xtel ::: [REFR:01001550] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000E2A] (in DLC02Overlook "Artillery Overlook" [WRLD:01000E27]) at 5,-1)
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100B4F7] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02zCliffs01 "Field Storage" [CELL:0100B4EB])
+ (to door)   xtel ::: [REFR:0100B4EE] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at 0,1)
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:0100B529] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC02zCliffs02 "Field Storage" [CELL:0100B4EA])
+ (to door)   xtel ::: [REFR:0100B4EF] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:01000C10] (in DLC02Glacier "Anchorage Cliffs" [WRLD:01000BF2]) at -1,3)
+name ::: GenDoor01 "Door" [DOOR:00003C8E]
+             edid :::
+ (from door) fid  ::: DLC02VSStoBaileys [REFR:0100136E] (places GenDoor01 "Door" [DOOR:00003C8E] in GRUP Cell Persistent Children of DLC02VSS01 "Outcast Outpost" [CELL:010012B8])
+ (to door)   xtel ::: DLC02ElevAboveDoorREF [REFR:01003293] (places DLC02ElevDoor "Freight Elevator" [DOOR:01003EC7] in GRUP Cell Persistent Children of [CELL:01000805] (in DLC02BaileysCrossroads "Bailey's Crossroads" [WRLD:01000804]) at 7,-8)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:0100287E] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC02zcBaileysToWasteland "Bailey's Crossroads Metro" [CELL:01002738])
+ (to door)   xtel ::: [REFR:01005691] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 2,-16)
+name ::: MetroGateLoad "Metal Gate" [DOOR:0001F920]
+             edid :::
+ (from door) fid  ::: DLC02MetroToBaileysLoad [REFR:0100288B] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of DLC02zcBaileysToWasteland "Bailey's Crossroads Metro" [CELL:01002738])
+ (to door)   xtel ::: [REFR:010028BC] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of [CELL:01000805] (in DLC02BaileysCrossroads "Bailey's Crossroads" [WRLD:01000804]) at 10,-7)

@@ -1,0 +1,272 @@
+name ::: DLC05HomingBeacn "Alien Homing Beacon" [DOOR:0100A98D]
+             edid :::
+ (from door) fid  ::: DLC05TeleporterWastelandToShip [REFR:0100A98C] (places DLC05HomingBeacn "Alien Homing Beacon" [DOOR:0100A98D] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 3,22)
+ (to door)   xtel ::: DLC05TeleporterToWasteland [REFR:0100A98B] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+name ::: DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476]
+             edid :::
+ (from door) fid  ::: DlC05HangartoCoreRef [REFR:0100334E] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05Hangar "Hangar" [CELL:01000F95])
+ (to door)   xtel ::: DLC05HangarBayDoorRef [REFR:010032F5] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05ExLab01to02DoorREF [REFR:01004BBC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+ (to door)   xtel ::: [REFR:01004BBB] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05ExLabToEngineCoreDoor [REFR:01004E63] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+ (to door)   xtel ::: DLC05EngineCoreDoorREF [REFR:01004E64] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05ExLab01to04Ref [REFR:010079B0] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+ (to door)   xtel ::: DLC05ExLab04to01Ref [REFR:010056AA] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: [REFR:010043C8] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05SpaceBridge01 "Decompression Chamber" [CELL:0100428E])
+ (to door)   xtel ::: DLC05SpaceBridge02Door01REF [REFR:010043D1] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05SpaceBridge02 "Space Walk" [CELL:01002FD1])
+name ::: DLC05DecompressionDoor01 "Door" [DOOR:010059C4]
+             edid :::
+ (from door) fid  ::: DLC05SpaceBridge01DecompressionDoor01REF [REFR:010043CA] (places DLC05DecompressionDoor01 "Door" [DOOR:010059C4] in GRUP Cell Persistent Children of DLC05SpaceBridge01 "Decompression Chamber" [CELL:0100428E])
+ (to door)   xtel ::: DLC05MZSpaceWalkDoorRef [REFR:0100307F] (places DLC05MZSpaceWalkDoor "Airlock Door" [DOOR:01008248] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05BridgeOldTele [REFR:0100309F] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+ (to door)   xtel ::: [REFR:01003099] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05LivingQuarters "Living Quarters" [CELL:01000EF8])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05BridgeTeleporterDoorRef1 [REFR:0100711C] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+ (to door)   xtel ::: DLC05BridgeTeleporterDoorRef2 [REFR:010056A9] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05TeleporterToWasteland [REFR:0100A98B] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+ (to door)   xtel ::: DLC05TeleporterWastelandToShip [REFR:0100A98C] (places DLC05HomingBeacn "Alien Homing Beacon" [DOOR:0100A98D] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 3,22)
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05BridgeECoreTeleport [REFR:0100D2CA] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+ (to door)   xtel ::: [REFR:0100D25C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01005D40] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestShip [CELL:01000846])
+ (to door)   xtel ::: [REFR:01005D3F] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:01007FE5] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05sewer02 "Waste Disposal" [CELL:010047BD])
+ (to door)   xtel ::: DLC05sewer01to02 [REFR:01007EF3] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05sewer01 "Maintenance Level" [CELL:01007397])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05SewertoCoreRef [REFR:01007FF2] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05sewer02 "Waste Disposal" [CELL:010047BD])
+ (to door)   xtel ::: [REFR:0100800B] (places DLC05TeleporterDoorMinUseHidden "Teleportation Matrix" [DOOR:0100AACA] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: DLC05CellsToSteamUnlocked [REFR:010032EF] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05HoldingCells "Holding Cells" [CELL:0100096F])
+ (to door)   xtel ::: [REFR:010032F2] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05Steamworks "Steamworks" [CELL:01002FD3])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:01004BBB] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+ (to door)   xtel ::: DLC05ExLab01to02DoorREF [REFR:01004BBC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05ExLab02TeleportA [REFR:01005F8C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+ (to door)   xtel ::: [REFR:01005F8D] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01005F8D] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+ (to door)   xtel ::: DLC05ExLab02TeleportA [REFR:01005F8C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:01005FCC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+ (to door)   xtel ::: [REFR:01006B12] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab03 "Experimentation Lab" [CELL:01004A12])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:010048C3] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05DeathRayHub01 "Death Ray Hub" [CELL:01004820])
+ (to door)   xtel ::: [REFR:0100492B] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05DeathRayHub02 "Death Ray Control" [CELL:0100481F])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05MZ3HubtoLabREF [REFR:0100487C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05DeathRayHub01 "Death Ray Hub" [CELL:01004820])
+ (to door)   xtel ::: [REFR:01004BD4] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+name ::: DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476]
+             edid :::
+ (from door) fid  ::: DLC05CryotoCoreRef [REFR:0100334F] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+ (to door)   xtel ::: DLC05CryoDoorRef01 [REFR:010032F6] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05CryoDoorTo02BREF [REFR:010038D9] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+ (to door)   xtel ::: [REFR:010038DC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CryoLab02 "Cryo Storage" [CELL:01003721])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05CryoLab01toCryoLab02Ref [REFR:01005B23] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+ (to door)   xtel ::: DLC05CryoLab02toCryoLab01Ref [REFR:01005B27] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05CryoLab02 "Cryo Storage" [CELL:01003721])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:01004BD1] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+ (to door)   xtel ::: [REFR:010067DA] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab03 "Experimentation Lab" [CELL:01004A12])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01004BD4] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+ (to door)   xtel ::: DLC05MZ3HubtoLabREF [REFR:0100487C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05DeathRayHub01 "Death Ray Hub" [CELL:01004820])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05ExLab04to01Ref [REFR:010056AA] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+ (to door)   xtel ::: DLC05ExLab01to04Ref [REFR:010079B0] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05BridgeTeleporterDoorRef2 [REFR:010056A9] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+ (to door)   xtel ::: DLC05BridgeTeleporterDoorRef1 [REFR:0100711C] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:0100492B] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05DeathRayHub02 "Death Ray Control" [CELL:0100481F])
+ (to door)   xtel ::: [REFR:010048C3] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05DeathRayHub01 "Death Ray Hub" [CELL:01004820])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05MZ3DeathRaytoQuartersDoorREF [REFR:01003089] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05DeathRayHub02 "Death Ray Control" [CELL:0100481F])
+ (to door)   xtel ::: [REFR:01003098] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05LivingQuarters "Living Quarters" [CELL:01000EF8])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:010015FE] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+ (to door)   xtel ::: [REFR:01001603] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01001603] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+ (to door)   xtel ::: [REFR:010015FE] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01005D3F] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestPhil [CELL:01000805])
+ (to door)   xtel ::: [REFR:01005D40] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestShip [CELL:01000846])
+name ::: DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274]
+             edid :::
+ (from door) fid  ::: [REFR:010031AF] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05Steamworks "Steamworks" [CELL:01002FD3])
+ (to door)   xtel ::: [REFR:010031AE] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: [REFR:010032F2] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05Steamworks "Steamworks" [CELL:01002FD3])
+ (to door)   xtel ::: DLC05CellsToSteamUnlocked [REFR:010032EF] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05HoldingCells "Holding Cells" [CELL:0100096F])
+name ::: DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274]
+             edid :::
+ (from door) fid  ::: DLC05CargotoCoreREF [REFR:01003B3A] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+ (to door)   xtel ::: DLC05CoretoCargoREF [REFR:010032F4] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05CargotoResearchREF [REFR:01005D31] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+ (to door)   xtel ::: DLC05ResearchtoCargoREF [REFR:01009169] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ResearchLab "Research Lab" [CELL:01008EC7])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:0100B458] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+ (to door)   xtel ::: [REFR:0100B42C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ResearchLab "Research Lab" [CELL:01008EC7])
+name ::: DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274]
+             edid :::
+ (from door) fid  ::: DLC05EnginetoCoreREF [REFR:01003533] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05EngineRoom "Engine Room" [CELL:010034DD])
+ (to door)   xtel ::: DLC05EngineRoomDoorRef [REFR:010032F9] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:010038DC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CryoLab02 "Cryo Storage" [CELL:01003721])
+ (to door)   xtel ::: DLC05CryoDoorTo02BREF [REFR:010038D9] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05CryoLab02toCryoLab01Ref [REFR:01005B27] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05CryoLab02 "Cryo Storage" [CELL:01003721])
+ (to door)   xtel ::: DLC05CryoLab01toCryoLab02Ref [REFR:01005B23] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:0100D2E6] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestJonPaul [CELL:01006312])
+ (to door)   xtel ::: [REFR:0100D2E9] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05TestJonPaul2 [CELL:0100D2D3])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:01006B12] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab03 "Experimentation Lab" [CELL:01004A12])
+ (to door)   xtel ::: [REFR:01005FCC] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab02 "Weapons Lab" [CELL:01004A14])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:010067DA] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab03 "Experimentation Lab" [CELL:01004A12])
+ (to door)   xtel ::: [REFR:01004BD1] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ExLab04 "Biological Research" [CELL:01004A13])
+name ::: DLC05MZSpaceWalkDoor "Airlock Door" [DOOR:01008248]
+             edid :::
+ (from door) fid  ::: DLC05MZSpaceWalkDoorRef [REFR:0100307F] (places DLC05MZSpaceWalkDoor "Airlock Door" [DOOR:01008248] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05SpaceBridge01DecompressionDoor01REF [REFR:010043CA] (places DLC05DecompressionDoor01 "Door" [DOOR:010059C4] in GRUP Cell Persistent Children of DLC05SpaceBridge01 "Decompression Chamber" [CELL:0100428E])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: [REFR:010031AE] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: [REFR:010031AF] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05Steamworks "Steamworks" [CELL:01002FD3])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05CoretoCargoREF [REFR:010032F4] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05CargotoCoreREF [REFR:01003B3A] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: DLC05HangarBayDoorRef [REFR:010032F5] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DlC05HangartoCoreRef [REFR:0100334E] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05Hangar "Hangar" [CELL:01000F95])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: DLC05CryoDoorRef01 [REFR:010032F6] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05CryotoCoreRef [REFR:0100334F] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05CryoLab01 "Cryo Lab" [CELL:01001616])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05hubToSewer01 [REFR:010032F8] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05TeleportDoorSewer01toCoreRef [REFR:01006D5B] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05sewer01 "Maintenance Level" [CELL:01007397])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05EngineRoomDoorRef [REFR:010032F9] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05EnginetoCoreREF [REFR:01003533] (places DLC05MZDoorSm01CoreScene "Door" [DOOR:01007274] in GRUP Cell Persistent Children of DLC05EngineRoom "Engine Room" [CELL:010034DD])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: DLC05RADoorRef [REFR:010032FA] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05AsmtoCoreREF [REFR:01003350] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: DLC05EngineCoreDoorREF [REFR:01004E64] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05ExLabToEngineCoreDoor [REFR:01004E63] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05ExLab01 "Observation Deck" [CELL:01002FCF])
+name ::: DLC05TeleporterDoorMinUseHidden "Teleportation Matrix" [DOOR:0100AACA]
+             edid :::
+ (from door) fid  ::: [REFR:0100800B] (places DLC05TeleporterDoorMinUseHidden "Teleportation Matrix" [DOOR:0100AACA] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05SewertoCoreRef [REFR:01007FF2] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05sewer02 "Waste Disposal" [CELL:010047BD])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:0100D25C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+ (to door)   xtel ::: DLC05BridgeECoreTeleport [REFR:0100D2CA] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01003098] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05LivingQuarters "Living Quarters" [CELL:01000EF8])
+ (to door)   xtel ::: DLC05MZ3DeathRaytoQuartersDoorREF [REFR:01003089] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05DeathRayHub02 "Death Ray Control" [CELL:0100481F])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:01003099] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05LivingQuarters "Living Quarters" [CELL:01000EF8])
+ (to door)   xtel ::: DLC05BridgeOldTele [REFR:0100309F] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05Bridge "The Bridge" [CELL:01002FCE])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05sewer01to02 [REFR:01007EF3] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05sewer01 "Maintenance Level" [CELL:01007397])
+ (to door)   xtel ::: [REFR:01007FE5] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05sewer02 "Waste Disposal" [CELL:010047BD])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05TeleportDoorSewer01toCoreRef [REFR:01006D5B] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05sewer01 "Maintenance Level" [CELL:01007397])
+ (to door)   xtel ::: DLC05hubToSewer01 [REFR:010032F8] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921]
+             edid :::
+ (from door) fid  ::: [REFR:0100D2E9] (places DLC05TeleporterDoorScripted02 "Teleportation Matrix" [DOOR:01009921] in GRUP Cell Persistent Children of DLC05TestJonPaul2 [CELL:0100D2D3])
+ (to door)   xtel ::: [REFR:0100D2E6] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05TestJonPaul [CELL:01006312])
+name ::: DLC05MZDoorSm01 "Door" [DOOR:01003BFB]
+             edid :::
+ (from door) fid  ::: DLC05ResearchtoCargoREF [REFR:01009169] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05ResearchLab "Research Lab" [CELL:01008EC7])
+ (to door)   xtel ::: DLC05CargotoResearchREF [REFR:01005D31] (places DLC05MZDoorSm01 "Door" [DOOR:01003BFB] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: [REFR:0100B42C] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05ResearchLab "Research Lab" [CELL:01008EC7])
+ (to door)   xtel ::: [REFR:0100B458] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05CargoHold "Cargo Hold" [CELL:0100098B])
+name ::: DLC05MZDoorBig01 "Door" [DOOR:01000856]
+             edid :::
+ (from door) fid  ::: DLC05SpaceBridge02Door01REF [REFR:010043D1] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05SpaceBridge02 "Space Walk" [CELL:01002FD1])
+ (to door)   xtel ::: [REFR:010043C8] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05SpaceBridge01 "Decompression Chamber" [CELL:0100428E])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05AsmReturnDooraREF [REFR:01002C03] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+ (to door)   xtel ::: DLC05AsmReturnDoorREF [REFR:0100C370] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+name ::: DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476]
+             edid :::
+ (from door) fid  ::: DLC05AsmtoCoreREF [REFR:01003350] (places DLC05MZDoorBig01CoreScene "Door" [DOOR:0100C476] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+ (to door)   xtel ::: DLC05RADoorRef [REFR:010032FA] (places DLC05MZDoorBig01 "Door" [DOOR:01000856] in GRUP Cell Persistent Children of DLC05EngineCore "Engineering Core" [CELL:01002FD2])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05AsmDoorC01Ref [REFR:010039B4] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+ (to door)   xtel ::: DLC05AsmTeleDoor03 [REFR:010039B5] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05AsmTeleDoor03 [REFR:010039B5] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+ (to door)   xtel ::: DLC05AsmDoorC01Ref [REFR:010039B4] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+name ::: DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920]
+             edid :::
+ (from door) fid  ::: DLC05AsmReturnDoorREF [REFR:0100C370] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])
+ (to door)   xtel ::: DLC05AsmReturnDooraREF [REFR:01002C03] (places DLC05TeleporterDoorScripted01 "Teleportation Matrix" [DOOR:01009920] in GRUP Cell Persistent Children of DLC05RobotAssembly "Robot Assembly" [CELL:01000F96])

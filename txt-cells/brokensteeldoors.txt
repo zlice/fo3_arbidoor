@@ -1,0 +1,488 @@
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: DLC03CitadelDoor01REF [REFR:01001BAD] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 9,-13)
+ (to door)   xtel ::: DLC03WastelandtoDLC03CitadelREF [REFR:01007539] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 8,-14)
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03CitadelPit01btozDLCCitadel01b [REFR:01009774] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 8,-13)
+ (to door)   xtel ::: DLC03zPit01btoCitadelPit01bREF [REFR:010095CB] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03zCitadelPit "Citadel Armory" [CELL:010095C3])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03CitadelPitt01atozDLC03Citadel01a [REFR:01009775] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 8,-13)
+ (to door)   xtel ::: DLC03zPit01atoCitadelPit01aREF [REFR:010095CA] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03zCitadelPit "Citadel Armory" [CELL:010095C3])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC03ExteriortoDLC03Relay01REF [REFR:01000B16] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:01000B0E] (in DLC03RelayStation "Satellite Relay Station" [WRLD:01000B0D]) at 1,0)
+ (to door)   xtel ::: DLC03RelayStation01toExteriorREF [REFR:01000917] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03RelayStation01 "Satellite Facility" [CELL:01000913])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: [REFR:0100151D] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01000B0E] (in DLC03RelayStation "Satellite Relay Station" [WRLD:01000B0D]) at 2,-1)
+ (to door)   xtel ::: DLC03BS1CarTunnelDoorREF [REFR:0100151C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of zDLC03CarTunnel "Rockland Car Tunnel" [CELL:01001490])
+name ::: MetroGateLoad "Metal Gate" [DOOR:0001F920]
+             edid :::
+ (from door) fid  ::: DLC03AdamsAFBtoDLC03PresMetroREF [REFR:01000FC9] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -5,-5)
+ (to door)   xtel ::: DLC03PresMetro03toAFBREF [REFR:01004543] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of DLC03PresMetro03 "Adams AFB Metro Exit" [CELL:0100452A])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: [REFR:010022ED] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+ (to door)   xtel ::: DLC03EnclaveTowerTopDoorREF [REFR:0100234A] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+name ::: DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A]
+             edid :::
+ (from door) fid  ::: DLC03EnclaveTowerDoor01bREF [REFR:010022F9] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+ (to door)   xtel ::: DLC03EnclaveTowerDoor01REF [REFR:01002349] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+name ::: DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B]
+             edid :::
+ (from door) fid  ::: [REFR:0100248B] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+ (to door)   xtel ::: [REFR:0100248A] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+name ::: DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A]
+             edid :::
+ (from door) fid  ::: [REFR:0100248C] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+ (to door)   xtel ::: DLC03MBExitDoor01 [REFR:01006EFB] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+name ::: DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A]
+             edid :::
+ (from door) fid  ::: [REFR:01002490] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+ (to door)   xtel ::: [REFR:01006EF8] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:0100444D] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -2,2)
+ (to door)   xtel ::: [REFR:01004449] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03AirControlStairs01 "Air Control Tower" [CELL:01004418])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:01004452] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -2,2)
+ (to door)   xtel ::: [REFR:01004448] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03AirControlStairs01 "Air Control Tower" [CELL:01004418])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03AFBtozDLC03AFBbREF [REFR:01008AF7] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 1,-3)
+ (to door)   xtel ::: DLC03zAFB01btoAFBREF [REFR:01008A10] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03zAFB01 "Factory" [CELL:01008A0F])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03AFBtozAFB01REF [REFR:01008AF8] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,-3)
+ (to door)   xtel ::: DLC03zAFB01atoAFBREF [REFR:01008A11] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03zAFB01 "Factory" [CELL:01008A0F])
+name ::: DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A]
+             edid :::
+ (from door) fid  ::: DLC03EnclaveTowerDoorNPC02REF [REFR:0100D2C7] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+ (to door)   xtel ::: DLC03EnclaveTowerDoorNPCREF [REFR:0100D2B7] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+name ::: MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584]
+             edid :::
+ (from door) fid  ::: [REFR:0001B5BA] (places MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 17,-9)
+ (to door)   xtel ::: [REFR:0001B834] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of zcPennAveToMall "Penn. Ave/The Mall Metro" [CELL:0001B478])
+name ::: MetroGateLoad "Metal Gate" [DOOR:0001F920]
+             edid :::
+ (from door) fid  ::: [REFR:0001B8CD] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 19,-7)
+ (to door)   xtel ::: [REFR:0001B8CC] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of MetroCenter01 "Metro Central" [CELL:0001A28C])
+name ::: SewerLidExit01 "Manhole" [DOOR:00060732]
+             edid :::
+ (from door) fid  ::: DCWorld08tozDCint12bREF [REFR:0001B8CE] (places SewerLidExit01 "Manhole" [DOOR:00060732] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 18,-7)
+ (to door)   xtel ::: zDCint12b01toDCWorld08REF [REFR:00045AC4] (places MetLadderLoad01 "Ladder" [DOOR:00020791] in GRUP Cell Persistent Children of zDCint12b "Sewer" [CELL:000459CD])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DCWorld08tozDCint08bREF [REFR:00076E3E] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 14,-7)
+ (to door)   xtel ::: zDCint08btoDCWorld08REF [REFR:00076E5A] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+name ::: SewerLidExit01 "Manhole" [DOOR:00060732]
+             edid :::
+ (from door) fid  ::: [REFR:00076E72] (places SewerLidExit01 "Manhole" [DOOR:00060732] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 15,-7)
+ (to door)   xtel ::: zDCint08b02toDCWorld08REF [REFR:00076E68] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+name ::: MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584]
+             edid :::
+ (from door) fid  ::: [REFR:000BB0B4] (places MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 15,-8)
+ (to door)   xtel ::: [REFR:000036C6] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of zcPennAveToGeorgetown "Penn. Ave/Georgetown Metro" [CELL:000035D6])
+name ::: MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584]
+             edid :::
+ (from door) fid  ::: PennAvetoMetroCenter03REf [REFR:000BB0B7] (places MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 17,-7)
+ (to door)   xtel ::: [REFR:0001ED98] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of MetroCenter03 "Freedom Street Station" [CELL:0001A285])
+name ::: MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584]
+             edid :::
+ (from door) fid  ::: [REFR:000BB0C3] (places MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 20,-9)
+ (to door)   xtel ::: [REFR:000BC4D1] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of zcPennAveToSeward "Penn. Ave/Seward Sq. Metro" [CELL:000BC4C3])
+name ::: HotelDoor01 "Metal Door" [DOOR:0002E6E4]
+             edid :::
+ (from door) fid  ::: DCWorld08tozDCint08aREF [REFR:000BB1E0] (places HotelDoor01 "Metal Door" [DOOR:0002E6E4] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 15,-8)
+ (to door)   xtel ::: zDCint08atoExteriorREF [REFR:000BB1DF] (places HotelDoor01 "Metal Door" [DOOR:0002E6E4] in GRUP Cell Persistent Children of zDCint08a "Hotel" [CELL:000BB019])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03MalltoGhoulHideout01REF [REFR:01003A50] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001BC8E] (in DCworld09 "The Mall" [WRLD:0001A266]) at 13,-11)
+ (to door)   xtel ::: [REFR:01005D8D] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03GhoulHideout "Museum Authority" [CELL:01004C7B])
+name ::: SewerEntranceDoor01 "Sewer Grate" [DOOR:000444B1]
+             edid :::
+ (from door) fid  ::: [REFR:000401D3] (places SewerEntranceDoor01 "Sewer Grate" [DOOR:000444B1] in GRUP Cell Persistent Children of [CELL:0001BC8E] (in DCworld09 "The Mall" [WRLD:0001A266]) at 13,-11)
+ (to door)   xtel ::: MirelurkHole2NationalMall [REFR:00019CD8] (places SewerEntranceDoor01 "Sewer Grate" [DOOR:000444B1] in GRUP Cell Persistent Children of MirelurkHole "Mirelurk Nesting Hole" [CELL:00018CCD])
+name ::: MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584]
+             edid :::
+ (from door) fid  ::: [REFR:000BB74C] (places MetroEntranceDoor01 "Chain Gate" [DOOR:0001D584] in GRUP Cell Persistent Children of [CELL:0001A26E] (in DCworld01 "Chevy Chase" [WRLD:00018DE6]) at 14,-5)
+ (to door)   xtel ::: [REFR:00014FDD] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of zcChevyToVernon "Metro Junction" [CELL:000035D3])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: [REFR:0001560D] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 9,-13)
+ (to door)   xtel ::: CitadelExteriorDoorREF [REFR:000155F5] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 8,-14)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: CitadelExteriorBTo02REF [REFR:00020AE1] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 8,-13)
+ (to door)   xtel ::: Citadel02toExteriorBREF [REFR:00020A5E] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+name ::: MetalScrapDoor01 "Door" [DOOR:0001CCD2]
+             edid :::
+ (from door) fid  ::: MegPlayerHouseDoorRef [REFR:000039B7] (places MetalScrapDoor01 "Door" [DOOR:0001CCD2] in GRUP Cell Persistent Children of [CELL:00000A96] (in MegatonWorld "Megaton" [WRLD:00000A74]) at -1,-6)
+ (to door)   xtel ::: [REFR:00015203] (places MetalScrapDoor01 "Door" [DOOR:0001CCD2] in GRUP Cell Persistent Children of MegatonPlayerHouse "Empty House" [CELL:000151E3])
+name ::: OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51]
+             edid :::
+ (from door) fid  ::: DLC03RocklandTunnelExtDoorREF [REFR:01001491] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -30,-19)
+ (to door)   xtel ::: [REFR:0100150F] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of zDLC03CarTunnel "Rockland Car Tunnel" [CELL:01001490])
+name ::: SewerSiloExit01 "Sewer Entrance" [DOOR:00060733]
+             edid :::
+ (from door) fid  ::: [REFR:00043B8B] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -18,0)
+ (to door)   xtel ::: [REFR:00043CC2] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of FortBannister01 "Commanding Officer's Quarters" [CELL:0004363E])
+name ::: DLC03CellarDoor "Cellar Door" [DOOR:01006249]
+             edid :::
+ (from door) fid  ::: [REFR:01003A22] (places DLC03CellarDoor "Cellar Door" [DOOR:01006249] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -2,-4)
+ (to door)   xtel ::: [REFR:01003A35] (places OffDoorHotelBlankSmL01 "Door" [DOOR:000B3E4D] in GRUP Cell Persistent Children of DLC03EternalGlowBasement "Eternal Light Monastery" [CELL:01003A21])
+name ::: PPSideDoor01 "Door" [DOOR:0007F901]
+             edid :::
+ (from door) fid  ::: [REFR:0001DFEA] (places PPSideDoor01 "Door" [DOOR:0007F901] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+ (to door)   xtel ::: [REFR:0001BD73] (places MQ05PPExitDoor "Door" [DOOR:000AAE5D] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+name ::: DLC03PPSideDoor01 "Door" [DOOR:010043A2]
+             edid :::
+ (from door) fid  ::: DLC03WastelandtoPP02REF [REFR:010043A3] (places DLC03PPSideDoor01 "Door" [DOOR:010043A2] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+ (to door)   xtel ::: DLC03PP02toWastelandREF [REFR:0100406A] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+name ::: LPipeExtDoor02 "Grate" [DOOR:0007F900]
+             edid :::
+ (from door) fid  ::: MQ05ExDoor02Ref [REFR:0001DFF7] (places LPipeExtDoor02 "Grate" [DOOR:0007F900] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+ (to door)   xtel ::: [REFR:0001DEDA] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of PPurity06 "Sift Pump" [CELL:0001DEB1])
+name ::: LPipeExtDoor01 "Grate" [DOOR:0007F8FF]
+             edid :::
+ (from door) fid  ::: MQ05ExDoor01Ref [REFR:0001DFF1] (places LPipeExtDoor01 "Grate" [DOOR:0007F8FF] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+ (to door)   xtel ::: MQ05PipeDoor02Ref [REFR:0001DEC1] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of PPurity05 "Pump Control" [CELL:0001DEAE])
+name ::: ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98]
+             edid :::
+ (from door) fid  ::: [REFR:01006852] (places ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -11,-3)
+ (to door)   xtel ::: [REFR:01006851] (places ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98] in GRUP Cell Persistent Children of DLC03JuryStRaiders "Hank's Electrical Supply" [CELL:0100674D])
+name ::: ParadiseDoor01 "Door" [DOOR:0005875C]
+             edid :::
+ (from door) fid  ::: [REFR:010068E6] (places ParadiseDoor01 "Door" [DOOR:0005875C] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -11,-3)
+ (to door)   xtel ::: [REFR:010068E4] (places ParadiseDoor01 "Door" [DOOR:0005875C] in GRUP Cell Persistent Children of DLC03JuryStRaiders "Hank's Electrical Supply" [CELL:0100674D])
+name ::: SiloDoor "Silo Door" [DOOR:00098733]
+             edid :::
+ (from door) fid  ::: [REFR:0100734D] (places SiloDoor "Silo Door" [DOOR:00098733] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -7,23)
+ (to door)   xtel ::: [REFR:01007340] (places SiloDoor "Silo Door" [DOOR:00098733] in GRUP Cell Persistent Children of DLC03RaiderSilo "Silo" [CELL:0100731E])
+name ::: SiloDoorTop "Silo Hatch" [DOOR:00098734]
+             edid :::
+ (from door) fid  ::: [REFR:0100734E] (places SiloDoorTop "Silo Hatch" [DOOR:00098734] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -7,23)
+ (to door)   xtel ::: BottomRuns [REFR:0100733F] (places MetLadderLoad01 "Ladder" [DOOR:00020791] in GRUP Cell Persistent Children of DLC03RaiderSilo "Silo" [CELL:0100731E])
+name ::: OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12]
+             edid :::
+ (from door) fid  ::: DLC03WastelandtoDLC03CitadelREF [REFR:01007539] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 8,-14)
+ (to door)   xtel ::: DLC03CitadelDoor01REF [REFR:01001BAD] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 9,-13)
+name ::: OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12]
+             edid :::
+ (from door) fid  ::: CitadelExteriorDoorREF [REFR:000155F5] (places OffDoorBigMetal01ExteriorPEN "Door" [DOOR:00029E12] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 8,-14)
+ (to door)   xtel ::: [REFR:0001560D] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 9,-13)
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: DLC03RelayStationBackDoor [REFR:010091C0] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -30,-16)
+ (to door)   xtel ::: DLC03RelayStation01ctoExteriorREF [REFR:01000915] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC03RelayStation01 "Satellite Facility" [CELL:01000913])
+name ::: DLC03PowerworksSewerLidExit01 "Manhole" [DOOR:0100BE00]
+             edid :::
+ (from door) fid  ::: DLC03ExteriortoPowerworks01 [REFR:0100BE09] (places DLC03PowerworksSewerLidExit01 "Manhole" [DOOR:0100BE00] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 10,28)
+ (to door)   xtel ::: DLC03Powerworks01toExterior [REFR:0100BE01] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03Powerworks01 "Olney Powerworks" [CELL:010035A1])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:01005D8D] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03GhoulHideout "Museum Authority" [CELL:01004C7B])
+ (to door)   xtel ::: DLC03MalltoGhoulHideout01REF [REFR:01003A50] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001BC8E] (in DCworld09 "The Mall" [WRLD:0001A266]) at 13,-11)
+name ::: CitadelDoorLabtoARing "Door" [DOOR:00054777]
+             edid :::
+ (from door) fid  ::: Citadel01to02REF [REFR:00020A5F] (places CitadelDoorLabtoARing "Door" [DOOR:00054777] in GRUP Cell Persistent Children of CitadelLab "Citadel - Laboratory" [CELL:00015157])
+ (to door)   xtel ::: Citadel02to01REF [REFR:00020A5D] (places CitadelDoorARingToLab "Door" [DOOR:00054786] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+name ::: CitadelDoorLabToBailey "Door" [DOOR:00054739]
+             edid :::
+ (from door) fid  ::: Citadel01toExteriorAREF [REFR:00020A6C] (places CitadelDoorLabToBailey "Door" [DOOR:00054739] in GRUP Cell Persistent Children of CitadelLab "Citadel - Laboratory" [CELL:00015157])
+ (to door)   xtel ::: CitBaileyToLabDoorRef [REFR:00015622] (places CitadelBaileyToLabDoor "Door" [DOOR:00054585] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 8,-14)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03zPit01atoCitadelPit01aREF [REFR:010095CA] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03zCitadelPit "Citadel Armory" [CELL:010095C3])
+ (to door)   xtel ::: DLC03CitadelPitt01atozDLC03Citadel01a [REFR:01009775] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 8,-13)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03zPit01btoCitadelPit01bREF [REFR:010095CB] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03zCitadelPit "Citadel Armory" [CELL:010095C3])
+ (to door)   xtel ::: DLC03CitadelPit01btozDLCCitadel01b [REFR:01009774] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01001B68] (in DLC03CitadelWorld "The Citadel Courtyard" [WRLD:01001B65]) at 8,-13)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks01to03 [REFR:01003C68] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks01 "Olney Powerworks" [CELL:010035A1])
+ (to door)   xtel ::: DLC03Powerworks03to01 [REFR:0100BE0C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks03 "Old Olney S. Wilson Building" [CELL:0100739A])
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks01toExterior [REFR:0100BE01] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03Powerworks01 "Olney Powerworks" [CELL:010035A1])
+ (to door)   xtel ::: DLC03ExteriortoPowerworks01 [REFR:0100BE09] (places DLC03PowerworksSewerLidExit01 "Manhole" [DOOR:0100BE00] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 10,28)
+name ::: OffDoorMetalSmL02a "Door" [DOOR:0001F5F9]
+             edid :::
+ (from door) fid  ::: zDCint08btoDCWorld08REF [REFR:00076E5A] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+ (to door)   xtel ::: DCWorld08tozDCint08bREF [REFR:00076E3E] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 14,-7)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: zDCint08b02toDCWorld08REF [REFR:00076E68] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+ (to door)   xtel ::: [REFR:00076E72] (places SewerLidExit01 "Manhole" [DOOR:00060732] in GRUP Cell Persistent Children of [CELL:0001A28B] (in DCworld08 "Pennsylvania Avenue" [WRLD:0001A267]) at 15,-7)
+name ::: OffDoorMetalSmL02a "Door" [DOOR:0001F5F9]
+             edid :::
+ (from door) fid  ::: DLC03PresMetroDoor01REF [REFR:01001075] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+ (to door)   xtel ::: [REFR:01001079] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro01 "Presidential Sub Level" [CELL:01000808])
+name ::: OffDoorBig01 "Door" [DOOR:000159A5]
+             edid :::
+ (from door) fid  ::: PresidentsHallDoorRef [REFR:00074EDE] (places OffDoorBig01 "Door" [DOOR:000159A5] in GRUP Cell Persistent Children of MuseumAmericanEntrance "Museum of History Entrance" [CELL:00074EB2])
+ (to door)   xtel ::: MuseumAmerican01toDCWorld09REF [REFR:0001865C] (places OffDoorBig01 "Door" [DOOR:000159A5] in GRUP Cell Persistent Children of MuseumAmerican01 "Museum of History Lower Halls" [CELL:0001851F])
+name ::: BLD12Door01 "Door" [DOOR:0002E2B5]
+             edid :::
+ (from door) fid  ::: [REFR:0007D75F] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of MuseumAmericanEntrance "Museum of History Entrance" [CELL:00074EB2])
+ (to door)   xtel ::: DCWorld09toMuseumAmerican01REFDUPLICATE000 [REFR:0002325B] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of [CELL:0001BC8E] (in DCworld09 "The Mall" [WRLD:0001A266]) at 16,-9)
+name ::: UnderworldEntranceDoor "Door" [DOOR:000B0375]
+             edid :::
+ (from door) fid  ::: [REFR:000B037B] (places UnderworldEntranceDoor "Door" [DOOR:000B0375] in GRUP Cell Persistent Children of MuseumAmericanEntrance "Museum of History Entrance" [CELL:00074EB2])
+ (to door)   xtel ::: [REFR:00024E1B] (places UnderworldEntranceDoorInterior "Door" [DOOR:0006DC77] in GRUP Cell Persistent Children of UnderworldConcourse "Underworld Concourse" [CELL:00024D6B])
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: [REFR:0100248A] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+ (to door)   xtel ::: [REFR:0100248B] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+name ::: DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B]
+             edid :::
+ (from door) fid  ::: [REFR:0100248D] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+ (to door)   xtel ::: [REFR:0100248F] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: [REFR:01006EFA] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+ (to door)   xtel ::: [REFR:01006EF9] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: DLC03MBExitDoor01 [REFR:01006EFB] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+ (to door)   xtel ::: [REFR:0100248C] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+name ::: MQ05TaftSewerLidExit01 "Manhole" [DOOR:000B044E]
+             edid :::
+ (from door) fid  ::: TaftEntranceRef [REFR:0001CC7D] (places MQ05TaftSewerLidExit01 "Manhole" [DOOR:000B044E] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: MQ05TaftToPPurityLadderRef [REFR:0005CF55] (places MQ05TafttoPPurityLadder "Sewer Exit" [DOOR:000AF6BE] in GRUP Cell Persistent Children of TaftTunnel02 "Taft Tunnels" [CELL:0006A8FF])
+name ::: PPDoorToRotunda01 "Door" [DOOR:0007C612]
+             edid :::
+ (from door) fid  ::: [REFR:00018649] (places PPDoorToRotunda01 "Door" [DOOR:0007C612] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: PPSideDoor01Ref2 [REFR:00018652] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of PPurity01 "Jefferson Memorial Rotunda" [CELL:00018520])
+name ::: PPDoorToRotunda01 "Door" [DOOR:0007C612]
+             edid :::
+ (from door) fid  ::: [REFR:0001CC21] (places PPDoorToRotunda01 "Door" [DOOR:0007C612] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: PPSideDoor01Ref1 [REFR:0001C984] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of PPurity01 "Jefferson Memorial Rotunda" [CELL:00018520])
+name ::: MQ05PPExitDoor "Door" [DOOR:000AAE5D]
+             edid :::
+ (from door) fid  ::: [REFR:0001BD73] (places MQ05PPExitDoor "Door" [DOOR:000AAE5D] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: [REFR:0001DFEA] (places PPSideDoor01 "Door" [DOOR:0007F901] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+name ::: PurityGratetoPumpControl "Grate" [DOOR:0005B462]
+             edid :::
+ (from door) fid  ::: PPurity02PipeDoorRef [REFR:0001E005] (places PurityGratetoPumpControl "Grate" [DOOR:0005B462] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: MQ05PipeDoor01Ref [REFR:0001DED3] (places LPipeDoor01 "Grate" [DOOR:0007F8FE] in GRUP Cell Persistent Children of PPurity05 "Pump Control" [CELL:0001DEAE])
+name ::: OffDoorMetalSmL02a "Door" [DOOR:0001F5F9]
+             edid :::
+ (from door) fid  ::: [REFR:0001DF0E] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+ (to door)   xtel ::: [REFR:0001DF6C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of PPurity03 "Memorial Sub-Basement" [CELL:0001DEB0])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:01001079] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro01 "Presidential Sub Level" [CELL:01000808])
+ (to door)   xtel ::: DLC03PresMetroDoor01REF [REFR:01001075] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of zDCint08b "Utility" [CELL:00076DA3])
+name ::: DLC03MargotDoor "Door" [DOOR:01009B87]
+             edid :::
+ (from door) fid  ::: DLC03PresMetroMargotDoorREF [REFR:01001F45] (places DLC03MargotDoor "Door" [DOOR:01009B87] in GRUP Cell Persistent Children of DLC03PresMetro01 "Presidential Sub Level" [CELL:01000808])
+ (to door)   xtel ::: [REFR:01001F0E] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: Citadel02ato02aREF [REFR:000209C4] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+ (to door)   xtel ::: Citadel03ato02aREF [REFR:000209CA] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelBRing "Citadel - B Ring" [CELL:000207A1])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: Citadel02bto03bREF [REFR:000209C5] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+ (to door)   xtel ::: Citadel03bto02bREF [REFR:00020A3D] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelBRing "Citadel - B Ring" [CELL:000207A1])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: Citadel02toExteriorCREF [REFR:00020A5C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+ (to door)   xtel ::: [REFR:0002377D] (places OffDoorMetalSmR01 "Door" [DOOR:0001A019] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 9,-13)
+name ::: CitadelDoorARingToLab "Door" [DOOR:00054786]
+             edid :::
+ (from door) fid  ::: Citadel02to01REF [REFR:00020A5D] (places CitadelDoorARingToLab "Door" [DOOR:00054786] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+ (to door)   xtel ::: Citadel01to02REF [REFR:00020A5F] (places CitadelDoorLabtoARing "Door" [DOOR:00054777] in GRUP Cell Persistent Children of CitadelLab "Citadel - Laboratory" [CELL:00015157])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: Citadel02toExteriorBREF [REFR:00020A5E] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+ (to door)   xtel ::: CitadelExteriorBTo02REF [REFR:00020AE1] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of [CELL:00015158] (in CitadelWorld "The Citadel Courtyard" [WRLD:00015145]) at 8,-13)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03PP02toWastelandREF [REFR:0100406A] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+ (to door)   xtel ::: DLC03WastelandtoPP02REF [REFR:010043A3] (places DLC03PPSideDoor01 "Door" [DOOR:010043A2] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 14,-17)
+name ::: DLC03PP02DoortoRotunda "Door" [DOOR:010043A0]
+             edid :::
+ (from door) fid  ::: DLC03PP02to01aREF [REFR:0100406B] (places DLC03PP02DoortoRotunda "Door" [DOOR:010043A0] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+ (to door)   xtel ::: DLC03PP01to02aREF [REFR:010045B4] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of DLC03PPurity01 "Jefferson Memorial Rotunda" [CELL:010045B2])
+name ::: DLC03PP02DoortoRotunda "Door" [DOOR:010043A0]
+             edid :::
+ (from door) fid  ::: DLC03PP02to01bREF [REFR:0100406E] (places DLC03PP02DoortoRotunda "Door" [DOOR:010043A0] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+ (to door)   xtel ::: DLC03PP01to02bREF [REFR:010045B3] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of DLC03PPurity01 "Jefferson Memorial Rotunda" [CELL:010045B2])
+name ::: PPRotundaDoor01 "Door" [DOOR:000762B4]
+             edid :::
+ (from door) fid  ::: PPSideDoor01Ref1 [REFR:0001C984] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of PPurity01 "Jefferson Memorial Rotunda" [CELL:00018520])
+ (to door)   xtel ::: [REFR:0001CC21] (places PPDoorToRotunda01 "Door" [DOOR:0007C612] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+name ::: PPRotundaDoor01 "Door" [DOOR:000762B4]
+             edid :::
+ (from door) fid  ::: PPSideDoor01Ref2 [REFR:00018652] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of PPurity01 "Jefferson Memorial Rotunda" [CELL:00018520])
+ (to door)   xtel ::: [REFR:00018649] (places PPDoorToRotunda01 "Door" [DOOR:0007C612] in GRUP Cell Persistent Children of PPurity02 "Jefferson Museum and Gift Shop" [CELL:00018521])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: DLC03PresMetro03toAFBREF [REFR:01004543] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of DLC03PresMetro03 "Adams AFB Metro Exit" [CELL:0100452A])
+ (to door)   xtel ::: DLC03AdamsAFBtoDLC03PresMetroREF [REFR:01000FC9] (places MetroGateLoad "Metal Gate" [DOOR:0001F920] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -5,-5)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03PresMetro03to02DummyDoor [REFR:0100BCD8] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro03 "Adams AFB Metro Exit" [CELL:0100452A])
+ (to door)   xtel ::: DLC03PresMetro02to03DummyDoor [REFR:0100BCD7] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: [REFR:01001F0E] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+ (to door)   xtel ::: DLC03PresMetroMargotDoorREF [REFR:01001F45] (places DLC03MargotDoor "Door" [DOOR:01009B87] in GRUP Cell Persistent Children of DLC03PresMetro01 "Presidential Sub Level" [CELL:01000808])
+name ::: DLC03PresMetroBackDoor "Door" [DOOR:0100C74C]
+             edid :::
+ (from door) fid  ::: [REFR:010020A9] (places DLC03PresMetroBackDoor "Door" [DOOR:0100C74C] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+ (to door)   xtel ::: DLC03PresMetroDoor02REF [REFR:010020A3] (places DLC03PresMetroBackDoor "Door" [DOOR:0100C74C] in GRUP Cell Persistent Children of CapitolBuilding01b "Capitol Building East Entrance" [CELL:00095B7A])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03PresMetro02to03DummyDoor [REFR:0100BCD7] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+ (to door)   xtel ::: DLC03PresMetro03to02DummyDoor [REFR:0100BCD8] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03PresMetro03 "Adams AFB Metro Exit" [CELL:0100452A])
+name ::: ParadiseDoubleDoor01 "Door" [DOOR:0005875D]
+             edid :::
+ (from door) fid  ::: [REFR:000CB0E0] (places ParadiseDoubleDoor01 "Door" [DOOR:0005875D] in GRUP Cell Persistent Children of zJuryStreetGrocer "Gold Ribbon Grocers" [CELL:000CAFDF])
+ (to door)   xtel ::: [REFR:0009CA2A] (places ParadiseDoubleDoor01 "Door" [DOOR:0005875D] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -11,-2)
+name ::: ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98]
+             edid :::
+ (from door) fid  ::: [REFR:01006851] (places ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98] in GRUP Cell Persistent Children of DLC03JuryStRaiders "Hank's Electrical Supply" [CELL:0100674D])
+ (to door)   xtel ::: [REFR:01006852] (places ShackLucasSimmsHatch "Hatch" [DOOR:000BCE98] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -11,-3)
+name ::: ParadiseDoor01 "Door" [DOOR:0005875C]
+             edid :::
+ (from door) fid  ::: [REFR:010068E4] (places ParadiseDoor01 "Door" [DOOR:0005875C] in GRUP Cell Persistent Children of DLC03JuryStRaiders "Hank's Electrical Supply" [CELL:0100674D])
+ (to door)   xtel ::: [REFR:010068E6] (places ParadiseDoor01 "Door" [DOOR:0005875C] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -11,-3)
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: Citadel03ato02aREF [REFR:000209CA] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelBRing "Citadel - B Ring" [CELL:000207A1])
+ (to door)   xtel ::: Citadel02ato02aREF [REFR:000209C4] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+name ::: OffDoorBigMetal01 "Door" [DOOR:0001A018]
+             edid :::
+ (from door) fid  ::: Citadel03bto02bREF [REFR:00020A3D] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelBRing "Citadel - B Ring" [CELL:000207A1])
+ (to door)   xtel ::: Citadel02bto03bREF [REFR:000209C5] (places OffDoorBigMetal01 "Door" [DOOR:0001A018] in GRUP Cell Persistent Children of CitadelARing "Citadel - A Ring" [CELL:000207A2])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks03to02 [REFR:01007CA6] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks03 "Old Olney S. Wilson Building" [CELL:0100739A])
+ (to door)   xtel ::: DLC03Powerworks02to03 [REFR:0100739B] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks02 "Old Olney Underground" [CELL:0100A107])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks03to01 [REFR:0100BE0C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks03 "Old Olney S. Wilson Building" [CELL:0100739A])
+ (to door)   xtel ::: DLC03Powerworks01to03 [REFR:01003C68] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks01 "Olney Powerworks" [CELL:010035A1])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:0100150F] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of zDLC03CarTunnel "Rockland Car Tunnel" [CELL:01001490])
+ (to door)   xtel ::: DLC03RocklandTunnelExtDoorREF [REFR:01001491] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -30,-19)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03BS1CarTunnelDoorREF [REFR:0100151C] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of zDLC03CarTunnel "Rockland Car Tunnel" [CELL:01001490])
+ (to door)   xtel ::: [REFR:0100151D] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:01000B0E] (in DLC03RelayStation "Satellite Relay Station" [WRLD:01000B0D]) at 2,-1)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: [REFR:0100248F] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+ (to door)   xtel ::: [REFR:0100248D] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: [REFR:01006EF8] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+ (to door)   xtel ::: [REFR:01002490] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,1)
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: [REFR:01006EF9] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase01 "Mobile Base Crawler" [CELL:01000806])
+ (to door)   xtel ::: [REFR:01006EFA] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveBase02 "Launch Platform Base" [CELL:010011C3])
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: DLC03EnclaveTowerDoor01REF [REFR:01002349] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+ (to door)   xtel ::: DLC03EnclaveTowerDoor01bREF [REFR:010022F9] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: DLC03EnclaveTowerTopDoorREF [REFR:0100234A] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+ (to door)   xtel ::: [REFR:010022ED] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+name ::: DLC03CrlDoor01 "Door" [DOOR:01006DF0]
+             edid :::
+ (from door) fid  ::: DLC03EnclaveTowerDoorNPCREF [REFR:0100D2B7] (places DLC03CrlDoor01 "Door" [DOOR:01006DF0] in GRUP Cell Persistent Children of DLC03EnclaveTower "Satellite Control Tower" [CELL:01000805])
+ (to door)   xtel ::: DLC03EnclaveTowerDoorNPC02REF [REFR:0100D2C7] (places DLC03CrlLoadDoorExt01 "Door" [DOOR:0100887A] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,0)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC03zAFB01btoAFBREF [REFR:01008A10] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03zAFB01 "Factory" [CELL:01008A0F])
+ (to door)   xtel ::: DLC03AFBtozDLC03AFBbREF [REFR:01008AF7] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 1,-3)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC03zAFB01atoAFBREF [REFR:01008A11] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03zAFB01 "Factory" [CELL:01008A0F])
+ (to door)   xtel ::: DLC03AFBtozAFB01REF [REFR:01008AF8] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at 0,-3)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: [REFR:0004F756] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of OldOlney01 "Olney Sewers" [CELL:0004F4E1])
+ (to door)   xtel ::: [REFR:0004F657] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 11,27)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: [REFR:0004F757] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of OldOlney01 "Olney Sewers" [CELL:0004F4E1])
+ (to door)   xtel ::: [REFR:0004F656] (places SewerSiloExit01 "Sewer Entrance" [DOOR:00060733] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at 10,25)
+name ::: UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730]
+             edid :::
+ (from door) fid  ::: DLC03OlneyUnderworksDoorREF [REFR:01009193] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of OldOlney01 "Olney Sewers" [CELL:0004F4E1])
+ (to door)   xtel ::: DLC03Powerworks02toSewers [REFR:0100A44F] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of DLC03Powerworks02 "Old Olney Underground" [CELL:0100A107])
+name ::: DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks02toSewers [REFR:0100A44F] (places DLC03CrlLoadHatchExt01 "Hatch" [DOOR:0100887B] in GRUP Cell Persistent Children of DLC03Powerworks02 "Old Olney Underground" [CELL:0100A107])
+ (to door)   xtel ::: DLC03OlneyUnderworksDoorREF [REFR:01009193] (places UtlHallBgEndSewerExLad01 "Ladder" [DOOR:00060730] in GRUP Cell Persistent Children of OldOlney01 "Olney Sewers" [CELL:0004F4E1])
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: DLC03Powerworks02to03 [REFR:0100739B] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks02 "Old Olney Underground" [CELL:0100A107])
+ (to door)   xtel ::: DLC03Powerworks03to02 [REFR:01007CA6] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of DLC03Powerworks03 "Old Olney S. Wilson Building" [CELL:0100739A])
+name ::: UtlDoor01 "Door" [DOOR:0003940E]
+             edid :::
+ (from door) fid  ::: DLC03RelayStation01ctoExteriorREF [REFR:01000915] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of DLC03RelayStation01 "Satellite Facility" [CELL:01000913])
+ (to door)   xtel ::: DLC03RelayStationBackDoor [REFR:010091C0] (places UtlDoor01 "Door" [DOOR:0003940E] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -30,-16)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: DLC03RelayStation01toExteriorREF [REFR:01000917] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03RelayStation01 "Satellite Facility" [CELL:01000913])
+ (to door)   xtel ::: DLC03ExteriortoDLC03Relay01REF [REFR:01000B16] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:01000B0E] (in DLC03RelayStation "Satellite Relay Station" [WRLD:01000B0D]) at 1,0)
+name ::: PPRotundaDoor01 "Door" [DOOR:000762B4]
+             edid :::
+ (from door) fid  ::: DLC03PP01to02bREF [REFR:010045B3] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of DLC03PPurity01 "Jefferson Memorial Rotunda" [CELL:010045B2])
+ (to door)   xtel ::: DLC03PP02to01bREF [REFR:0100406E] (places DLC03PP02DoortoRotunda "Door" [DOOR:010043A0] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+name ::: PPRotundaDoor01 "Door" [DOOR:000762B4]
+             edid :::
+ (from door) fid  ::: DLC03PP01to02aREF [REFR:010045B4] (places PPRotundaDoor01 "Door" [DOOR:000762B4] in GRUP Cell Persistent Children of DLC03PPurity01 "Jefferson Memorial Rotunda" [CELL:010045B2])
+ (to door)   xtel ::: DLC03PP02to01aREF [REFR:0100406B] (places DLC03PP02DoortoRotunda "Door" [DOOR:010043A0] in GRUP Cell Persistent Children of DLC03PPurity02 "Jefferson Museum and Gift Shop" [CELL:01003D64])
+name ::: DLC03PresMetroBackDoor "Door" [DOOR:0100C74C]
+             edid :::
+ (from door) fid  ::: DLC03PresMetroDoor02REF [REFR:010020A3] (places DLC03PresMetroBackDoor "Door" [DOOR:0100C74C] in GRUP Cell Persistent Children of CapitolBuilding01b "Capitol Building East Entrance" [CELL:00095B7A])
+ (to door)   xtel ::: [REFR:010020A9] (places DLC03PresMetroBackDoor "Door" [DOOR:0100C74C] in GRUP Cell Persistent Children of DLC03PresMetro02 "Presidential Metro" [CELL:01000807])
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:01004448] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03AirControlStairs01 "Air Control Tower" [CELL:01004418])
+ (to door)   xtel ::: [REFR:01004452] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -2,2)
+name ::: IndDoorSmAnim01 "Door" [DOOR:000463CE]
+             edid :::
+ (from door) fid  ::: [REFR:01004449] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of DLC03AirControlStairs01 "Air Control Tower" [CELL:01004418])
+ (to door)   xtel ::: [REFR:0100444D] (places IndDoorSmAnim01 "Door" [DOOR:000463CE] in GRUP Cell Persistent Children of [CELL:0100106C] (in DLC03AdamsAFB "Adams Air Force Base" [WRLD:01000803]) at -2,2)
+name ::: OffDoorHotelBlankSmL01 "Door" [DOOR:000B3E4D]
+             edid :::
+ (from door) fid  ::: [REFR:01003A35] (places OffDoorHotelBlankSmL01 "Door" [DOOR:000B3E4D] in GRUP Cell Persistent Children of DLC03EternalGlowBasement "Eternal Light Monastery" [CELL:01003A21])
+ (to door)   xtel ::: [REFR:01003A22] (places DLC03CellarDoor "Cellar Door" [DOOR:01006249] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -2,-4)
+name ::: OffDoorMetalSmL01 "Door" [DOOR:00019CF5]
+             edid :::
+ (from door) fid  ::: zDCWorld03ToDCWorld03NorthTunnel [REFR:000453EB] (places OffDoorMetalSmL01 "Door" [DOOR:00019CF5] in GRUP Cell Persistent Children of zDCWorld03 "Collapsed Car Tunnel" [CELL:00045219])
+ (to door)   xtel ::: DCWorld03NorthTunnelTozDCWorld03 [REFR:00033CB1] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001A292] (in DCworld03 "Dupont Circle" [WRLD:0001A26C]) at 14,-5)
+name ::: OffDoorMetalSmR02a "Door" [DOOR:0001F5FA]
+             edid :::
+ (from door) fid  ::: [REFR:0004566A] (places OffDoorMetalSmR02a "Door" [DOOR:0001F5FA] in GRUP Cell Persistent Children of zDCWorld03 "Collapsed Car Tunnel" [CELL:00045219])
+ (to door)   xtel ::: [REFR:0003E648] (places OffDoorMetalDoor01EXTERIOR "Door" [DOOR:00014D51] in GRUP Cell Persistent Children of [CELL:0001A292] (in DCworld03 "Dupont Circle" [WRLD:0001A26C]) at 14,-7)
+name ::: OffDoorMetalSmL02a "Door" [DOOR:0001F5F9]
+             edid :::
+ (from door) fid  ::: [REFR:000506E1] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of zDCWorld03 "Collapsed Car Tunnel" [CELL:00045219])
+ (to door)   xtel ::: [REFR:000446E7] (places OffDoorMetalSmL02a "Door" [DOOR:0001F5F9] in GRUP Cell Persistent Children of MetroCenter02 "Dupont Circle Station" [CELL:0001A287])
+name ::: BLD12Door01 "Door" [DOOR:0002E2B5]
+             edid :::
+ (from door) fid  ::: [REFR:0005A862] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of zLenfantCapitolPost "Office" [CELL:0005A7DB])
+ (to door)   xtel ::: [REFR:0002F3F0] (places BLD12Door01 "Door" [DOOR:0002E2B5] in GRUP Cell Persistent Children of [CELL:0001BC95] (in DCworld10 "L'Enfant Plaza" [WRLD:0001A265]) at 18,-14)
+name ::: MetLadderLoad01 "Ladder" [DOOR:00020791]
+             edid :::
+ (from door) fid  ::: BottomRuns [REFR:0100733F] (places MetLadderLoad01 "Ladder" [DOOR:00020791] in GRUP Cell Persistent Children of DLC03RaiderSilo "Silo" [CELL:0100731E])
+ (to door)   xtel ::: [REFR:0100734E] (places SiloDoorTop "Silo Hatch" [DOOR:00098734] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -7,23)
+name ::: SiloDoor "Silo Door" [DOOR:00098733]
+             edid :::
+ (from door) fid  ::: [REFR:01007340] (places SiloDoor "Silo Door" [DOOR:00098733] in GRUP Cell Persistent Children of DLC03RaiderSilo "Silo" [CELL:0100731E])
+ (to door)   xtel ::: [REFR:0100734D] (places SiloDoor "Silo Door" [DOOR:00098733] in GRUP Cell Persistent Children of [CELL:00002DB4] (in Wasteland "Wasteland" [WRLD:0000003C]) at -7,23)
