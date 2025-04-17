@@ -833,8 +833,8 @@ const uint32_t cell_00020F90[] = {
 
 const uint32_t cell_00020F91[] = {
   0x0004561C, 0x0004561F, 0x00045268,
-  0x00045267, 0x0002D96C, 0x0002FA9E,
-  0x0002FB26,
+  0x0002D96C, 0x0002FA9E, 0x0002FB26,
+  /*0x00045267, gate bocks murder pass, 1-way*/
   0x0,
 };
 
