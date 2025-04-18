@@ -75,7 +75,9 @@ a 1-way.
 Having tranquility enabled allows for a nice hub of doors. But whatever
 you do, **DO NOT USE THE EXIT DOOR**. Using the 'failsafe exit' before
 sitting in the chair **WILL SOFTLOCK** you as a child. The box with all your
-stuff in it (and the door that goes to the sim) are OOB in the 112 cell.
+stuff in it (and the door that goes to the sim) are OOB in the 112 cell. Not
+only that, but going into 112 after having been in Tranquility will take all
+of your stuff, and it will not be in the box. So plan ahead!
 
 If you want to route getting to 112, sit in the chair, then make your way
 as a kid to wherever the quest objectives are, which may be anywhere or dead
@@ -83,9 +85,8 @@ if you're doing the whole quest line, WITHOUT PIPBOY, and THEN take the exit
 door, you should be fine.
 
 The easiest way to do this is to just avoid the chair and exit door altogether.
-That will leave dad in a weird state where he doesn't walk to you to talk.
-So you'll have to make your way back to 112, talk to him, and then he should
-end up in rivet city science lab.
+Again, make sure you drop your gear if you went into Tranquility first and THEN
+go into 112 to talk to dad once you're done.
 
 #### - vault87 (and friends)
 
@@ -193,6 +194,11 @@ This works surprisingly well. It may not take you the best way, but it should
 take you the right way. Routes change depending on where you are, either on the
 map or per-cell. If you fast travel or go inside a door, you may be able to find
 a better path to where you're going.
+
+Since the doors are replaced on save-loads, if you are focused on a door when
+loading, the text will be briefly incorrect. Similarly for the map marker, you
+will have to go into another door or toggle active quest for it to update after
+loading.
 
 #### Pits / Ledges / bridges
 
