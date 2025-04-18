@@ -425,10 +425,13 @@ const uint32_t cell_00017F59[] = {
   0x0,
 };
 
-const uint32_t cell_00017F5A[] = {
-  0x00018130, 0x00054830,
-  0x0,
-};
+/*
+*const uint32_t cell_00017F5A[] = {
+*  0x00018130, becomes 1 door cell
+*  0x00054830, cant climb to
+*  0x0,
+*};
+*/
 
 const uint32_t cell_00017F5B[] = {
   0x00018121, 0x00018122, 0x00039393,
