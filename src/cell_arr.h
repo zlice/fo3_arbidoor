@@ -193,7 +193,8 @@ const uint32_t cell_0001516F[] = {
 };
 
 const uint32_t cell_00016D9F[] = {
-  0x0007DD37, 0x000310CC, 0x000173EF,
+  0x0007DD37, 0x000173EF,
+  /*0x000310CC, leskos door locked*/
   0x0,
 };
 
