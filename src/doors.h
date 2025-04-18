@@ -207,7 +207,6 @@ const uint32_t fo3base_doors[] = {
     0x00056ECC, 0x00057116,    0x000C991F, 0x000574ED,
     0x0005C1E0, 0x0005C1C2,    0x00022F27, 0x00064C70,
     0x0006744D, 0x0003C57B,    0x0006753C, 0x00018250,
-    0x0005C28B, 0x00069FC3,
     0x0004960E, 0x00056975,    0x000178C0, 0x000172E7,
     0x0001835E, 0x000173CB,    0x000310CC, 0x000310F7,
     0x00020A5F, 0x00020A5D,    0x000A5401, 0x0003D824,
@@ -275,7 +274,7 @@ const uint32_t fo3base_doors[] = {
     0x0004202D, 0x000420EA,    0x0005092E, 0x000509FC,
     0x00063B70, 0x00063B98,    0x000560EC, 0x0001B9D4,
     0x0001B9FC, 0x0001B8E8,    0x00098744, 0x00098738,
-    0x00019B4E, 0x000B5CE6,    0x0004BC30, 0x00059BEF,
+    0x00019B4E, 0x000B5CE6,    0x0005C28B, 0x00069FC3,
     0x00053E8F, 0x00053E20,    0x00096D8B, 0x0003C8B0, // :)
     0x000185E8, 0x00018617,    0x0005364D, 0x00053671,
     // ^ vault 112 entrance    ^ smith casey upstairs
@@ -383,8 +382,9 @@ const uint32_t fo3base_doors[] = {
     // always takes you to top by dish.
     // outside is quest locked and you can travel to mall anyway.
 
-    // 0x0004BC2F, 0x00059C3F, :(
-    // unused tent, drops you middle of air outside lincoln memorial
+    // 0x0004BC2F, 0x00059C3F,  0x0004BC30, 0x00059BEF, :(
+    // ^ unused tent            ^ calebs tent
+    // both drop you middle of air outside lincoln memorial
 
     // 0x000A3A87, 0x000A5F56,
     // ^ vault 92 overseer
