@@ -118,7 +118,6 @@ const uint32_t fo3base_doors[] = {
     0x00017083, 0x000B01A3,    0x00017084, 0x0001727C,
     0x00018616, 0x00018608,    0x0001BCD3, 0x0004F23C,
     0x0001BD36, 0x00030B00,    0x0001BD41, 0x0002F899,
-    0x0001D5FC, 0x0001D622,    0x0001D5FD, 0x0001D695,
     0x0001D5FE, 0x0001D62B,    0x0001D5FF, 0x0001D66F,
     0x00017411, 0x0001741A,    0x000179CE, 0x0001798C,
     0x00017A17, 0x000170FD,    0x00018122, 0x0001813C,
@@ -392,6 +391,10 @@ const uint32_t fo3base_doors[] = {
 
     // 0x00060176, 0x000600E2,
     // ^ arefu bottom house - quest locked
+    // 0x0001D5FC, 0x0001D622,    0x0001D5FD, 0x0001D695,
+    // ^ ewer                      ^ schenzy
+    // unfortunately these are quest locked.
+    // unless swapped with another locked door, no way in.
 
     // 0x00035B81, 0x00035B6E,
     // oasis sunken chambers - quest locked
