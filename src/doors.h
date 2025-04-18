@@ -207,7 +207,7 @@ const uint32_t fo3base_doors[] = {
     0x00056ECC, 0x00057116,    0x000C991F, 0x000574ED,
     0x0005C1E0, 0x0005C1C2,    0x00022F27, 0x00064C70,
     0x0006744D, 0x0003C57B,    0x0006753C, 0x00018250,
-    0x0005C28B, 0x00069FC3,    0x0004C6CA, 0x0004C6C8,
+    0x0005C28B, 0x00069FC3,
     0x0004960E, 0x00056975,    0x000178C0, 0x000172E7,
     0x0001835E, 0x000173CB,    0x000310CC, 0x000310F7,
     0x00020A5F, 0x00020A5D,    0x000A5401, 0x0003D824,
@@ -332,6 +332,8 @@ const uint32_t fo3base_doors[] = {
     // generator room is a 'shared cell', 1 door behind the other.
     // these will both always be 1-ways, but you'd have
     // to cut the whole tenpenny'attack' version so it stays.
+    // 0x0004C6CA, 0x0004C6C8,
+    // ^ tenpenny attack follower escape hatch, similar to megaton
 
     // 0x00019409, 0x0001940B,
     // ^ warrington station - quest locked from roy tenpenny quest

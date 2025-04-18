@@ -47,8 +47,8 @@ const uint32_t cell_00002DB4[] = {
   0x000CA9F7, 0x0009CA2A, 0x0009DBB2, 0x000A4291, 0x00044C5E,
   0x0004E6F3, 0x0004E776, 0x0005281B, 0x00049135, 0x00054CDD,
   0x00054DEF, 0x00056ECC, 0x000C991F, 0x0005C1E0, 0x00022F27,
-  0x0006744D, 0x0006753C, 0x0005C28B, 0x0004C6CA, 0x0004960E,
-  0xFF0009A9, 0x0004B9DD, 0x0009B5A0,
+  0x0006744D, 0x0006753C, 0x0005C28B, 0x0004960E, 0xFF0009A9,
+  0x0004B9DD, 0x0009B5A0,
   /*0x0001DFF7, 0x0001DFF1 0x00018612,
   *0x0002F876, 0x00034A35, 0x0004623F,
   *0x0006F20C, 0x000790FA, 0x0002DBE5,
@@ -62,6 +62,7 @@ const uint32_t cell_00002DB4[] = {
   by pickpocket or killing. but other side will be locked.
   since it's out of logic, this should be seen as a 1-way?*/
   /*0x000179CE, 0x000179D3, tenpenny tower
+  *0x0004C6CA, tenpenny attach follower escape hatch
   *0x0001DA15, rivet
   *0x0004BC64,
   *0x0004BC65,
@@ -847,7 +848,8 @@ const uint32_t cell_0002107F[] = {
 // tenpenny dark world, front/genny
 const uint32_t cell_0002263C[] = {
   0x0002270C, 0x0002270B,
-  0x0002270A, 0x0004C6C8,
+  0x0002270A,
+  /*0x0004C6C8, follower escape hatch*/
   /*0x0002270D, 0x0002270E,*/
   0x0,
 };
