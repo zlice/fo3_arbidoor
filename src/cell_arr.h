@@ -772,9 +772,10 @@ const uint32_t cell_0001BC95[] = {
 
 const uint32_t cell_0001BC98[] = {
   0x0001BCD4, 0x0004DD32, 0x0004DD33,
-  0x0004DB47, 0x0004DB4A, 0x0004DB49,
-  0x0004DB4B, 0x0006D994, 0x0007C608,
+  0x0004DB4A, 0x0004DB49, 0x0004DB4B,
+  0x0006D994, 0x0007C608,
   0x0,
+  /*0x0004DB47, unreachable half-bridge*/
 };
 
 const uint32_t cell_0001BC99[] = {
