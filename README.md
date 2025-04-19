@@ -242,6 +242,13 @@ which means you'd have to circle around to however you got to alternate Tenpenny
 But that's a small price for the other doors you usually can only see for
 3 in-game days.
 
+#### Controls disabled
+
+Some areas, scripts, quests, NPCs seem to disable player controls and require
+the console command `enableplayercontrols`. I think this may be related to
+dialog like interacting with a Dave Escort outside of Republic of Dave, or
+after you have already made them hostile.
+
 #### NPCs and quests
 
 As mentioned above, this messes with AI pathing. Some NPCs will be in the middle
