@@ -381,10 +381,11 @@ const uint32_t fo3base_doors[] = {
     // outside is quest locked and you can travel to mall anyway.
 
     // 0x0004BC2F, 0x00059C3F,  0x0004BC30, 0x00059BEF, :(
-    // ^ unused refugee tent    ^ calebs tent
+    // ^ refugee tent           ^ calebs tent
     // 0x0004BC40, 0x00059C04,
     // ^ simone tent
-    // all drop you middle of air outside lincoln memorial
+    // these are quest locked for 'head of state.
+    // all drop you middle of air outside lincoln memorial.
 
     // 0x000A3A87, 0x000A5F56,
     // ^ vault 92 overseer
