@@ -111,6 +111,12 @@ const uint32_t cell_00000558[] = {
   0x000C3EA5, 0x000C3CF2, // top, small wood bridge
 };
 
+/* fake for statesmen<>hope 'bridge'*/
+// real cell for vernon square is 0001A28E
+const uint32_t cell_00000222[] = {
+  0x0002A14E, 0x0002A144,
+};
+
 /* fake for mama dolce bridges */
 const uint32_t cell_00000777[] = {
   0x0004E019, 0x0004E01A,
@@ -688,10 +694,11 @@ const uint32_t cell_0001A28D[] = {
 };
 
 const uint32_t cell_0001A28E[] = {
-  0x000959B9, 0x0002A129, 0x0002A144,
-  0x0002A14E, 0x0001B8AD, 0x0001B8AF,
-  0x0002B5D4, 0x00032EC1, 0x0001B5EF,
-  0x0001B5F1, 0x0001B60D, 0x0001B615,
+  0x000959B9, 0x0002A129,
+  0x0001B8AD, 0x0001B8AF,
+  0x0002B5D4, 0x00032EC1,
+  0x0001B5EF, 0x0001B5F1,
+  0x0001B60D, 0x0001B615,
   0x0,
 };
 

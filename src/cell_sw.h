@@ -72,6 +72,9 @@ const uint32_t *get_door_cell(uint32_t door_id) {
   case 0x0009B5A0:
   return cell_00002DB4;
 
+  case 0x0002A144: case 0x0002A14E:
+  return cell_00000222;
+
   case 0x0007684E: case 0x0007684D:
   return cell_00000332; // bot inside cell is 0007684A
 
@@ -401,8 +404,8 @@ const uint32_t *get_door_cell(uint32_t door_id) {
   case 0x0001B8B8: case 0x0001B8B9:
   return cell_0001A28D;
 
-  case 0x000959B9: case 0x0002A129: case 0x0002A144:
-  case 0x0002A14E: case 0x0001B8AD: case 0x0001B8AF:
+  case 0x000959B9: case 0x0002A129:
+  case 0x0001B8AD: case 0x0001B8AF:
   case 0x0002B5D4: case 0x00032EC1: case 0x0001B5EF:
   case 0x0001B5F1: case 0x0001B60D: case 0x0001B615:
   return cell_0001A28E;
