@@ -242,6 +242,13 @@ which means you'd have to circle around to however you got to alternate Tenpenny
 But that's a small price for the other doors you usually can only see for
 3 in-game days.
 
+#### Randomizer saves are their own
+
+Trying to load a save you had a randomizer enabled on can cause major issues
+when playing non-randomized or with a new seed. NPCs being in unexpected
+locations can lead to crashes. In some cases, this can be a hard timer from when
+the save is loaded without the original randomizer or seed.
+
 #### Controls disabled
 
 Some areas, scripts, quests, NPCs seem to disable player controls and require
