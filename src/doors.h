@@ -243,7 +243,7 @@ const uint32_t fo3base_doors[] = {
     0x0003ACEF, 0x0003AD3A,    0x0003AD0E, 0x0003ADA6,
     0x0003AD1C, 0x0003ADF4,    0x0003AE20, 0x0003ADAF,
     0x0003AD1F, 0x0003AE79,    0x0003AD1D, 0x0003AE6F,
-    0x000A39A1, 0x000A39A9,    0x0001DF0E, 0x0001DF6C,
+    0x000A39A1, 0x000A39A9,    0x0001DF0E, 0x0001DF6C, // jefferson basement
     0x00018649, 0x00018652,    0x0001CC21, 0x0001C984, // jefferson rotunda
     0x0002DCA0, 0x0002DC5F,    0x0001BD21, 0x0001B910,
     0x00018389, 0x00018397,    0x0006184C, 0x0006184D,
@@ -292,13 +292,12 @@ const uint32_t fo3base_doors[] = {
     // effectively becomes a 1-way because the quest
     // swaps this with the child (pre-homefront/MS16) versions
 
-    0x0006B945, 0x0003DC6F,    0x000B5C33, 0x000B5C3E,
+    // 0x0006B945, 0x0003DC6F,    0x000B5C33, 0x000B5C3E,
     // ^ taft intended door    ^ taft upper smol door
-    // these taft doors are semi-locked or 1-ways until
-    // waters of life is complete.
-    // the upper door is not reallllly accessible...but
-    // with some parkour you can get to it.
-    // so ima leave it in cuz it's kool =3
+    // these can be reached with some parkour...but
+    // touching taft before the Li escort advances some stage.
+    // then there are barriers up and she may bug out at the
+    // end game during "take it back"
     // 0x0002F876, 0x0001B625,
     // ^ taft exit by citadel - locked until end of waters of life
     // 0x0005CF55, 0x0001CC7D,

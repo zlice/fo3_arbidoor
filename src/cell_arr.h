@@ -708,10 +708,14 @@ const uint32_t cell_0001B478[] = {
   0x0,
 };
 
-const uint32_t cell_0001B56C[] = {
-  0x000B5C3E, 0x0003DC6F, /*0x0001B625,*/
-  0x0,
-};
+/* taft =/ can't use
+*const uint32_t cell_0001B56C[] = {
+*  0x000B5C3E, 0x0003DC6F,
+*  ^ these mess with Li WOL and TIB
+*  0x0001B625, quest locked
+*  0x0,
+*};
+*/
 
 const uint32_t cell_0001BA01[] = {
   0x0001BA98, 0x0001B816, 0x00022BBC,
