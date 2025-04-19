@@ -307,7 +307,7 @@ const uint32_t *get_door_cell(uint32_t door_id) {
   case 0x00018608: case 0x00018609:
   return cell_00018528;
 
-  case 0x00035363: case 0x000185FA: case 0x000185FB:
+  case 0x000185FA: case 0x000185FB:
   return cell_00018529;
 
   case 0x0002F4CD: case 0x0002F4CA:

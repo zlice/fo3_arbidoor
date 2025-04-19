@@ -512,7 +512,8 @@ const uint32_t cell_00018528[] = {
 };
 
 const uint32_t cell_00018529[] = {
-  0x00035363, 0x000185FA, 0x000185FB,
+  0x000185FA, 0x000185FB,
+  /*0x00035363, internal 1-door room*/
   0x0,
 };
 
