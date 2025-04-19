@@ -377,10 +377,13 @@ const uint32_t cell_00017F4E[] = {
   0x0,
 };
 
-const uint32_t cell_00017F4F[] = {
-  0x000181D4, 0x000181D8,
-  0x0,
-};
+/*
+*const uint32_t cell_00017F4F[] = {
+*  0x000181D8, becomes 1 door cell
+*  0x000181D4, quest elevator no power
+*  0x0,
+*};
+*/
 
 /* dunwhich virulent underchambers
 const uint32_t cell_00017F50[] = {
