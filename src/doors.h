@@ -67,7 +67,7 @@ const uint32_t fo3base_doors[] = {
     0x0002325B, 0x0007D75F,    0x00023260, 0x0002325F,
     0x00022F16, 0x0004B3FA,    0x00027DD3, 0x00027E32,
     0x00027DE6, 0x00027DEE,    0x000401D3, 0x00019CD8,
-    0x0004BC40, 0x00059C04,    0x000606B7, 0x0001F1FA,
+    0x000606B7, 0x0001F1FA,
     0x0006937A, 0x0006C03E,    0x00041562, 0x0001D877,
     0x000A4B13, 0x00018634,    0x000AE889, 0x000AE886,
     0x0001B5B5, 0x0000374E,    0x0001B5B6, 0x0001B833,
@@ -382,8 +382,10 @@ const uint32_t fo3base_doors[] = {
     // outside is quest locked and you can travel to mall anyway.
 
     // 0x0004BC2F, 0x00059C3F,  0x0004BC30, 0x00059BEF, :(
-    // ^ unused tent            ^ calebs tent
-    // both drop you middle of air outside lincoln memorial
+    // ^ unused refugee tent    ^ calebs tent
+    // 0x0004BC40, 0x00059C04,
+    // ^ simone tent
+    // all drop you middle of air outside lincoln memorial
 
     // 0x000A3A87, 0x000A5F56,
     // ^ vault 92 overseer
