@@ -1030,8 +1030,9 @@ const uint32_t cell_0002D0E4[] = {
 };
 
 const uint32_t cell_0002D0E5[] = {
-  0x0004CFA3, 0x0004CD80, 0x0004CDAA,
-  0x0004CD24, 0x0002D247,
+  0x0004CFA3, 0x0004CD80,
+  0x0004CDAA, 0x0004CD24,
+  /*0x0002D247,*/
   0x0,
 };
 
