@@ -1288,10 +1288,14 @@ const uint32_t cell_00099E9D[] = {
   0x0,
 };
 
-const uint32_t cell_00099E9E[] = {
-  0x000B553E, 0x000B55BE, /*0x00099F16,*/
-  0x0,
-};
+/*
+*const uint32_t cell_00099E9E[] = {
+*  0x000B55BE, becoms 1 door cell
+*  0x000B553E, 1-way from switch
+*  0x00099F16, cave door quest locked
+*  0x0,
+*};
+*/
 
 const uint32_t cell_0009DF08[] = {
   0x0009DF50, 0x0009DF51,
