@@ -253,10 +253,13 @@ const uint32_t cell_00017E17[] = {
   0x0,
 };
 
-const uint32_t cell_00017E18[] = {
-  0x00035B6E, 0x00047E6F,
-  0x0,
-};
+/*
+*const uint32_t cell_00017E18[] = {
+*  0x00047E6F, becomes 1 door cell
+*  0x00035B6E, quest locked
+*  0x0,
+*};
+*/
 
 const uint32_t cell_00017E19[] = {
   0x00035B81, 0x00035B80,
