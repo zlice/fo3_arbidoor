@@ -97,10 +97,14 @@ void get_player_name() {
 void find_dlc_ids() {
   uint32_t *dlc_tbl = 0, dlc_cnt = 0;
   char *dlc_name = 0;
-  const char *dlc_names[5] = {
-    "Anchorage", "ThePitt",
-    "PointLookout", "Zeta", "BrokenSteel"
-  }; // !!!order important!!! see above
+  const char dlc_names[] = "ATPZB";
+  // !!!order important!!! see above
+  // going to cheat and check only the first letter
+  // instead of
+  //const char *dlc_names[5] = {
+  //  "Anchorage", "ThePitt",
+  //  "PointLookout", "Zeta", "BrokenSteel"
+  //};
 
   asm volatile("mov ecx, [0x106CDCC];" // hardcoded (1.7.0.3) static pointer
       "add ecx, 0x1AC;" // DLC table (after Fallout3.esm)
@@ -108,16 +112,9 @@ void find_dlc_ids() {
       : "=r"(dlc_tbl) : : "ecx" );
 
   while (dlc_tbl[dlc_cnt] != 0) {
-    int cur_dlc = 0;
-    dlc_name = dlc_tbl[dlc_cnt] + 0x20;
-    for ( ; cur_dlc < 5 ; cur_dlc++) {
-      int dlc_pos = 0;
-      while (dlc_pos < 13 && dlc_name[dlc_pos] != 0 && dlc_name[dlc_pos] != '.'
-             && dlc_name[dlc_pos] == dlc_names[cur_dlc][dlc_pos])
-        dlc_pos++;
-
-      dlc_pos--; // behind '.esm'
-      if (dlc_name[dlc_pos] == dlc_names[cur_dlc][dlc_pos] ) {
+    dlc_name = (char*)dlc_tbl[dlc_cnt] + 0x20;
+    for (int cur_dlc = 0 ; cur_dlc < 5 ; cur_dlc++) {
+      if (dlc_name[0] == dlc_names[cur_dlc] ) {
         dlc_ids[cur_dlc] = dlc_cnt + 1; // main game is always 0
         break;
       }
