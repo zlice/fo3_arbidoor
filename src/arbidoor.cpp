@@ -234,8 +234,7 @@ void shuffle_doors() {
            src_rnd = 0, dst_rnd = 0,
            // cell crawl - 535 total cells, 315 are single door 'houses'
            bad_doors[700], can_move[700], nxt_cells[250], // only 246 in cell_sw
-           *cur_cell = 0, chk_cell = 0, bad_cnt = 0,
-           can_mv_cnt = 0, cur_cell_door = 0;
+           bad_cnt = 0, can_mv_cnt = 0, cur_cell_door = 0;
 
   // use pos, not value
   for (i = 0 ; i < TOT_DOORS ; i++)
@@ -312,40 +311,58 @@ void shuffle_doors() {
     }
 
     for (auto [src_door, dst_door] : arbidoor) {
+      if (seen[src_door] == 1)
+        continue;
+
       int world_cnt = 0, // number of world (main map) doors in 'zone'
           cd_cnt = 0, // current door count
-          saw_new = 0,
           cell_depth = 0;
 
-      nxt_cells[cell_depth] = (uint32_t)get_door_cell(src_door);
-      if (nxt_cells[0] == 0 && seen[src_door] == 0
-          && (uint32_t)get_door_cell(comp_doors[dst_door]) == 0) {
-        bad_doors[bad_cnt++] = src_door;
-        seen[src_door] = 1;
-        zone_cnt++;
+      uint32_t *cur_cell = (uint32_t*)get_door_cell(src_door),
+                chk_cell = (uint32_t)get_door_cell(comp_doors[dst_door]);
+
+      if (cur_cell == cell_00002DB4) {
+        // world<>world can be moved
+        // they are not as useful, and the main game doesn't do this
+        if (chk_cell == (uint32_t)cur_cell) {
+          can_move[can_mv_cnt++] = src_door;
+          seen[src_door] = seen[comp_doors[dst_door]] = 1;
+        }
+        continue;
       }
-      // 1 door cells are not in the cell lists, so the below loop never hits.
-      // add to bad_doors[] if it's directly linked to another 'no-cell/logic' door.
-      // otherwise, another door should cover that 'zone' when it comes.
 
-      while (nxt_cells[cell_depth] != 0) {
-        cd_cnt = world_cnt = saw_new = 0;
+      nxt_cells[cell_depth++] = 0; // [0] stops loop
+      if ((uint32_t*)chk_cell == cell_00002DB4)
+        world_cnt++; // world cell skips loop anyway
+      else
+        nxt_cells[cell_depth++] = chk_cell;
+      nxt_cells[cell_depth] = (uint32_t)cur_cell;
+      seen[src_door] = seen[comp_doors[dst_door]] = 1;
+
+      while (cell_depth > 0) {
         cur_cell = (uint32_t*)nxt_cells[cell_depth];
-        cur_cell_door = cur_cell[cd_cnt];
+        cur_cell_door = cur_cell[0];
 
-        saw_new |= seen[(uint32_t)cur_cell] == 0 ? 1 : 0;
         if (seen[(uint32_t)cur_cell] == 0) {
           seen[(uint32_t)cur_cell] = 1;
+          cd_cnt = 0;
           while (cur_cell_door != 0) {
             if (arbidoor.count(cur_cell_door) != 0) {
               chk_cell = arbidoor[cur_cell_door];
               chk_cell = comp_doors[chk_cell];
+              seen[cur_cell_door] = seen[(uint32_t)chk_cell] = 1;
               chk_cell = (uint32_t)get_door_cell(chk_cell);
 
               if ((uint32_t*)chk_cell == cell_00002DB4) {
                 world_cnt++;
-                if (world_cnt > 1)
-                  can_move[can_mv_cnt++] = cur_cell_door;
+                if (world_cnt > 1) {
+                  int c = 0;
+                  for ( ; c < can_mv_cnt ; c++)
+                    if (can_move[c] == cur_cell_door)
+                      break; // make sure it's not already in list
+                  if (c == can_mv_cnt)
+                    can_move[can_mv_cnt++] = cur_cell_door;
+                }
               } else if (chk_cell != 0 && seen[chk_cell] == 0) // not seen + not 1 door cell
                 nxt_cells[cell_depth++] = chk_cell;
             } // if door in randomizer
@@ -353,36 +370,14 @@ void shuffle_doors() {
           } // while doors in cell
         } // if seen cell
 
-        if (cell_depth != 0)
-          cell_depth--;
-        else
-          nxt_cells[0] = 0; // exit loop
+        cell_depth--;
       } // while nxt_cells
 
-      if (saw_new == 1 && world_cnt == 0 && seen[src_door] == 0) {
+      if (world_cnt == 0)
         bad_doors[bad_cnt++] = src_door;
-        seen[src_door] = 1;
-      }
-      if (saw_new)
-        zone_cnt++;
+
+      zone_cnt++;
     } // for crawl cells
-
-    // one more crawl for world<>world doors. they are not as useful,
-    // or in the main game. since we are going backwards, they will
-    // be used first.
-    for (auto [src_door, dst_door] : arbidoor) {
-      const uint32_t *src_cell = get_door_cell(src_door),
-                     *dst_cell = get_door_cell(comp_doors[dst_door]);
-
-      if (src_cell == cell_00002DB4 && dst_cell == src_cell) {
-        int c = 0;
-        for ( ; c < can_mv_cnt ; c++)
-          if (can_move[c] == src_door)
-            break; // make sure it's not already in moveable list
-        if (c == can_mv_cnt)
-          can_move[can_mv_cnt++] = (uint32_t)src_door;
-      }
-    } // for world<>world
 
 // debug dump
 //    if (bad_cnt != 0 || can_mv_cnt != 0) {
