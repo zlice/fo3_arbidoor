@@ -25,7 +25,7 @@
 
 using namespace std;
 
-#define ARBVERSION 3
+#define ARBVERSION 4
 
 // 0-based start of DLC in areas[] below
 // areas_enabled[DLC_START] = anchorage
@@ -332,12 +332,7 @@ void shuffle_doors() {
       }
 
       nxt_cells[cell_depth++] = 0; // [0] stops loop
-      if ((uint32_t*)chk_cell == cell_00002DB4)
-        world_cnt++; // world cell skips loop anyway
-      else
-        nxt_cells[cell_depth++] = chk_cell;
       nxt_cells[cell_depth] = (uint32_t)cur_cell;
-      seen[src_door] = seen[comp_doors[dst_door]] = 1;
 
       while (cell_depth > 0) {
         cur_cell = (uint32_t*)nxt_cells[cell_depth];
@@ -347,10 +342,11 @@ void shuffle_doors() {
           seen[(uint32_t)cur_cell] = 1;
           cd_cnt = 0;
           while (cur_cell_door != 0) {
+            cur_cell_door = cur_cell[cd_cnt++];
             if (arbidoor.count(cur_cell_door) != 0) {
               chk_cell = arbidoor[cur_cell_door];
               chk_cell = comp_doors[chk_cell];
-              seen[cur_cell_door] = seen[(uint32_t)chk_cell] = 1;
+              seen[cur_cell_door] = seen[chk_cell] = 1;
               chk_cell = (uint32_t)get_door_cell(chk_cell);
 
               if ((uint32_t*)chk_cell == cell_00002DB4) {
@@ -366,7 +362,6 @@ void shuffle_doors() {
               } else if (chk_cell != 0 && seen[chk_cell] == 0) // not seen + not 1 door cell
                 nxt_cells[cell_depth++] = chk_cell;
             } // if door in randomizer
-            cur_cell_door = cur_cell[++cd_cnt];
           } // while doors in cell
         } // if seen cell
 
