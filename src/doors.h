@@ -32,8 +32,7 @@ const uint32_t fo3base_doors[] = {
     // pairs of linked door
     // being next to each other makes it easy to get with '^ 1'
     // the compliment door       <door1>    <door2>
-    0x000A0D80, 0x0005634C,    0x0001825D, 0x00018269,
-    0x000A2432, 0x000A2433,    0x0006BAAC, 0x0006BA8E,
+    0x0001825D, 0x00018269,    0x0006BAAC, 0x0006BA8E,
     0x00062E9B, 0x00035B80,    0x0004E019, 0x0005032A,
     0x00050395, 0x0005036C,    0x000503B7, 0x000503A9,
     0x0004CAA8, 0x00050C54,    0x0004CAA9, 0x00050C53,
@@ -398,8 +397,10 @@ const uint32_t fo3base_doors[] = {
     // unfortunately these are quest locked.
     // unless swapped with another locked door, no way in.
 
+    // 0x000A0D80, 0x0005634C, 0x000A2432, 0x000A2433,
+    // ^ harold                ^ front oasis
     // 0x00035B81, 0x00035B6E,
-    // oasis sunken chambers - quest locked
+    // oasis sunken chambers - all quest locked
     0x0, 0x0,
 };
 
