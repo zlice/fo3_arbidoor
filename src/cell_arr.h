@@ -1305,10 +1305,13 @@ const uint32_t cell_0009DF08[] = {
   0x0,
 };
 
-const uint32_t cell_000A0C3C[] = {
-  0x000A0D80, 0x000A2432, 0x0006BAAC,
-  0x0,
-};
+/*
+*const uint32_t cell_000A0C3C[] = {
+*  0x000A0D80, 0x000A2432, oasis quest locked
+*  0x0006BAAC, becomes 1 door cell
+*  0x0,
+*};
+*/
 
 /*
 *const uint32_t cell_000A3977[] = {
