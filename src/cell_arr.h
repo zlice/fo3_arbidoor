@@ -1408,8 +1408,8 @@ const uint32_t cell_00015157[] = {
 };
 
 const uint32_t cell_00015158[] = {
-  0x0001560D, 0x00015622,
-  0x00020AE1, 0x0002377D,
+  0x00015622, 0x00020AE1, 0x0002377D,
+  /*0x0001560D, quest locked even though clips and secret tunnel work*/
   0x0,
 };
 
