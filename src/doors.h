@@ -527,15 +527,20 @@ const uint32_t anchorage_doors[] = {
 
 const uint32_t pitt_doors[] = {
     0xFF00150A, 0xFF0011B7,    0xFF007E02, 0xFF0011B5,
-    0xFF001507, 0xFF00150E,    0xFF00602D, 0xFF0060A0,
+    0xFF00602D, 0xFF0060A0,
     0xFF00602E, 0xFF0061B2,    0xFF006973, 0xFF0066B2,
-    0xFF00A36E, 0xFF009AFE,    0xFF0011C0, 0xFF00150F, // << dupe with broken steel
     0xFF001509, 0xFF0011C1,    0xFF001505, 0xFF007E01,
-    0xFF0094A7, 0xFF008E34,    0xFF001503, 0xFF00108F,
-    0xFF0009A9, 0xFF004E8F,    // ^ midea's hut
+    0xFF0011C0, 0xFF00150F,    0xFF001503, 0xFF00108F,
+    // ^ dupe with broken steel ^ midea's hut
+    0xFF0009A9, 0xFF004E8F,    0xFF0094A7, 0xFF008E34,
     // ^ door to pitt with handcar
     // sort of a 1 way, until you talk to wernher
     // will always take you to pitt entrance spot (not a door)
+
+    // 0xFF00A36E, 0xFF009AFE, 0xFF001507, 0xFF00150E,
+    // ^ uptown quest locked - door behind another door to downtown
+    // 9AFE swaps when you finish arena and go to downtown
+    // A36E is always behind 1507
 
     // 0xFF00150B, 0xFF00150C,
     // ^ pitt front gate
