@@ -521,10 +521,13 @@ const uint32_t cell_00018523[] = {
 *};
 */
 
-const uint32_t cell_00018528[] = {
-  0x00018608, 0x00018609,
-  0x0,
-};
+/*
+*const uint32_t cell_00018528[] = {
+*  0x00018608, becomes 1 door cell
+*  0x00018609, cannot open vault 106 from this side
+*  0x0,
+*};
+*/
 
 const uint32_t cell_00018529[] = {
   0x000185FA, 0x000185FB,
