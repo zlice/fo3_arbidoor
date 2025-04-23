@@ -875,4 +875,5 @@ const uint32_t *get_door_cell(uint32_t door_id) {
 
   default: return 0;
   } // switch
+  return 0;
 };
