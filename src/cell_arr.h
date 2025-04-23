@@ -1431,8 +1431,9 @@ const uint32_t cell_0001A26E[] = {
 
 const uint32_t cell_0001A28B[] = {
   0x0001B5BA, 0x0001B8CD, 0x0001B8CE,
-  0x00076E3E, 0x00076E72, 0x000BB0C3,
-  0x000BB0B4, 0x000BB0B7, 0x000BB1E0,
+  0x00076E72, 0x000BB0C3, 0x000BB0B4,
+  0x000BB0B7, 0x000BB1E0,
+  /*0x00076E3E, whitehouse walled off shared cell*/
   0x0,
 };
 
