@@ -85,55 +85,67 @@ const uint32_t cell_00002DB4[] = {
 // bot inside cell is 0007684A
 const uint32_t cell_00000332[] = {
   0x0007684E, 0x0007684D, // mid inside
+  0x0,
 };
 
 const uint32_t cell_00000333[] = {
   0x00076E41, 0x00076E48, // outside mid
+  0x0,
 };
 
 const uint32_t cell_00000444[] = {
   0x00064BFD, 0x00064D38, // mid
+  0x0,
 };
 
 const uint32_t cell_00000555[] = {
   0x000C3D33, 0x000C3D34, // mid
+  0x0,
 };
 
 const uint32_t cell_00000556[] = {
   0x00076E42, 0x00076E44, // mid
+  0x0,
 };
 
 const uint32_t cell_00000557[] = {
   0x000C3EA3, 0x000C3EA4, // mid
+  0x0,
 };
 
 const uint32_t cell_00000558[] = {
   0x000C3EA5, 0x000C3CF2, // top, small wood bridge
+  0x0,
 };
 
 /* fake for statesmen<>hope 'bridge'*/
 // real cell for vernon square is 0001A28E
 const uint32_t cell_00000222[] = {
   0x0002A14E, 0x0002A144,
+  0x0,
 };
 
 /* fake for mama dolce bridges */
 const uint32_t cell_00000777[] = {
   0x0004E019, 0x0004E01A,
+  0x0,
 };
 
 const uint32_t cell_00000778[] = {
   0x000503B7, 0x00050D36,
+  0x0,
 };
 
 /* fake for constantine bridge */
 const uint32_t cell_00000888[] = {
   0x0004CEF7, 0x0004CEF8,
+  0x0,
 };
 
 /* fake for bethesda ruins bridge */
 const uint32_t cell_00000999[] = {
   0x0002541E, 0x0002541F,
+  0x0,
 };
 
 const uint32_t cell_00000A96[] = {
