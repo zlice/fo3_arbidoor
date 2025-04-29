@@ -66,7 +66,6 @@ const uint32_t fo3base_doors[] = {
     0x0002325B, 0x0007D75F,    0x00023260, 0x0002325F,
     0x00022F16, 0x0004B3FA,    0x00027DD3, 0x00027E32,
     0x00027DE6, 0x00027DEE,    0x000401D3, 0x00019CD8,
-    0x000606B7, 0x0001F1FA,
     0x0006937A, 0x0006C03E,    0x00041562, 0x0001D877,
     0x000A4B13, 0x00018634,    0x000AE889, 0x000AE886,
     0x0001B5B5, 0x0000374E,    0x0001B5B6, 0x0001B833,
@@ -189,7 +188,7 @@ const uint32_t fo3base_doors[] = {
     0x00076E42, 0x000C578E,    0x00076E43, 0x000C578D,
     0x00076E44, 0x00051E81,    0x00076E45, 0x00051E82,
     0x00076E46, 0x0007684D,    0x00076E48, 0x0007684E,
-    0x00076E49, 0x0007684C,    0x000A3422, 0x0004C333,
+    0x00076E49, 0x0007684C,    0x000606B7, 0x0001F1FA,
     0x000C25A7, 0x000C26C3,    0x000C25EA, 0x000C25D7,
     0x000C2677, 0x000C2606,    0x000C2727, 0x000C26C6,
     0x000C27B0, 0x000C2FCC,    0x000C27BB, 0x000C2FCE,
@@ -322,8 +321,10 @@ const uint32_t fo3base_doors[] = {
     // ^ tenpenny front        ^ roys front
     // 0x00021FC4, 0x00021FB6, 0x00022646, 0x0002270E,
     // ^ tenpenny basement to gen - ^ roys basement
-    // doing roy's quest resets the front and generator for
-    // a few days so those doors would never be reachable
+    // 0x000A3422, 0x0004C333,
+    // ^ tenpenny toy's alister balcony
+    // doing roy's quest resets the front, generator and balcony
+    // for a few days so those doors would never be reachable
     // during normal playthroughs and be 1-ways.
     // generator room is a 'shared cell', 1 door behind the other.
     // these will both always be 1-ways, but you'd have
