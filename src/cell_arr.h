@@ -148,6 +148,12 @@ const uint32_t cell_00000999[] = {
   0x0,
 };
 
+/* fake for broken steel AFB */
+const uint32_t cell_00550000[] = {
+  0xFF0022F9, 0xFF00248B, 0xFF00248C,
+  0x0,
+};
+
 const uint32_t cell_00000A96[] = {
   0x00003A12, 0x00003A14, 0x00003A15,
   0x00003A16, 0x00003A19, 0x00003A1C,
@@ -1558,8 +1564,7 @@ const uint32_t cell_01000B0E[] = {
 */
 
 const uint32_t cell_0100106C[] = {
-  0xFF000FC9, 0xFF0022ED, 0xFF0022F9,
-  0xFF00248B, 0xFF00248C, 0xFF00444D,
+  0xFF000FC9, 0xFF0022ED, 0xFF00444D, // TODO: 22ED 1-way
   0xFF008AF8,
   /*0xFF002490, 0xFF008AF7, 0xFF00D2C7,*/
   /*0xFF004452, shared cell, but this is ATC 1-way*/
