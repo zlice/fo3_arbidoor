@@ -897,10 +897,13 @@ const uint32_t cell_0002263D[] = {
   0x0,
 };
 
-const uint32_t cell_0002263E[] = {
-  0x0004C333, 0x00022650,
-  0x0,
-};
+/*
+*const uint32_t cell_0002263E[] = {
+*  0x0004C333, tenpenny dark balcony door, same as front
+*  0x00022650, becomes 1 door cell
+*  0x0,
+*};
+*/
 
 const uint32_t cell_00022D92[] = {
   0x00022DB8, 0x00022DB9,
