@@ -308,6 +308,15 @@ const uint32_t fo3base_doors[] = {
     // ^ pipes for waters of life (jeff, outside, under)
     // both sides get locked before/after quest
 
+    // 0x0001560D, 0x000155F5,    0x0001DFEA, 0x0001BD73,
+    // ^ citadel front            ^ jefferson front
+    // citadel is 1-way because of gate quest lock
+    // jefferson front is swapped with broken steel
+    // you CAN reach citadel by glitching or taking a specific OOB
+    // path to get behind the gate/door.
+    // you CAN reach jefferson with a specific path, or glitching,
+    // after enclave.
+
     // 0x000039B7, 0x00015203,
     // ^ player house for saving megaton - quest locked
     // logic thinks you can always go through this too
@@ -441,24 +450,11 @@ const uint32_t tranquility_doors[] = {
     0x0, 0x0,
 };
 
-// nothing particularly wrong with these but you don't get
-// a proper quest marker at the end of finding murder pass.
-// so it makes finding these a huge pain in the ass.
-// threw citadel and jefferson front in here too.
-// simliar issues. citadel has no quest marker because the door
-// is literally right in front of you at this stage.
-// jefferson pipes are actually outside and you have to go
-// inside and hope the map routes you somewhere different.
-// you CAN reach citadel by glitching or taking a specific OOB
-// path to get behind the gate/door.
-// you CAN reach jefferson with a specific path, or glitching,
-// after enclave.
+// requires arb-elper mod to get quest markers
 const uint32_t vault87_doors[] = {
     0x00021026, 0x00020FD9,    0x0002F4D4, 0x0002F4CA,
     0x0002F4CD, 0x0002F4DD,
     // ^ murder > living > test labs
-    0x0001560D, 0x000155F5,    0x0001DFEA, 0x0001BD73,
-    // ^ citadel front         ^ jefferson front
     0x0, 0x0,
 };
 

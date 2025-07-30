@@ -1443,6 +1443,8 @@ const uint32_t cell_00018520[] = {
   0x0,
 };
 
+// technically jefferson front is swapped
+// but it's so much later, consider it fine
 const uint32_t cell_00018521[] = {
   0x00018649, 0x0001BD73, 0x0001CC21,
   0x0001DF0E,
