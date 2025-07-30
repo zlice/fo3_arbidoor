@@ -162,7 +162,7 @@ const uint32_t fo3base_doors[] = {
     0x0005D863, 0x000689C3,    0x000301E6, 0x0002F14B,
     0x00063B37, 0x00063B2B,    0x00063B72, 0x00063B71,
     0x000687CD, 0x0002D775,    0x00068C88, 0x00068C84,
-    0x0006A17B, 0x00045268,    0x0006C247, 0x0006C246,
+    0x0006C247, 0x0006C246,
     0x0007012B, 0x0004203C,    0x000752C9, 0x000752D8,
     0x000752CA, 0x000752D9,    0x00079F14, 0x000184E2,
     0x00089C77, 0x000184CA,    0x0006F6A6, 0x0006F6B1,
@@ -354,6 +354,9 @@ const uint32_t fo3base_doors[] = {
     // ^ contract killer       ^ lawbringer
     // these doors only spawns when you get the karma perks
 
+    // 0x0006A17B, 0x00045268,
+    // ^ little lamplight front door - disables player controls
+    // is effectively a 1-way anyway from back or passing speech/quest
     // 0x00021025, 0x00045612,
     // ^ little lamplight computer door to vault 87
     // not active until joeseph unlocks in main quest
