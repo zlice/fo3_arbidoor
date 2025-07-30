@@ -88,32 +88,17 @@ The easiest way to do this is to just avoid the chair and exit door altogether.
 Again, make sure you drop your gear if you went into Tranquility first and THEN
 go into 112 to talk to dad once you're done.
 
-#### - vault87 (and friends)
+#### - vault87
 
-There are a few main quests that do not have markers. Vault 87 being
-a big part of that. Up to murder pass you have something to go off of.
-But after that it kind of just lets you be, because it's a linear and
-straight forward path. For randomized doors, this is not the case and
-it's a royal pain to find where to go.
+Not all vault87 cells have quest markers by default.
+You can use [arb-elper](https://www.nexusmods.com/fallout3/mods/26961)
+to make vault87 and clearing out Jefferson less of a guessing game.
 
-Having these doors static for allows easy completion of the main quest.
+Since Joseph's door is not random and quest locked, markers may seem
+confusing and you could come in from 'wrong' doors which only show up
+on the map while in certain cells after some chasing.
 
-Citadel and Jefferson main entrances are also included with this.
-
-Citadel - similarly doesn't give a quest marker because you just opened
-the gate, so obviously you should walk in to talk to Lyons and Li.
-
->Note: you CAN access Citadel gate by going around back. This can be
-done with a very specific OOB route, or by clipping.
-
-Jefferson - when you go to find the valve inside pipes, they are
-actually outside in the main world. The quest marker points you there,
-and you can use tricks to not need the pipes, but this makes it
-easier than having to go inside multiple places and hope the marker
-changes to the actual gift-shop entrance, mark it yourself, then hunt
-it down.
-
-This is good to enable if you want a challenge :)
+Or you can not use it if you want a challenge :)
 
 #### - ravenrock
 
@@ -188,7 +173,7 @@ You can check doors.h and cell*.h files for more doors and notes.
 
 Some more important items:
 
-#### Map marker
+#### Quest/map marker
 
 This works surprisingly well. It may not take you the best way, but it should
 take you the right way. Routes change depending on where you are, either on the
@@ -199,6 +184,8 @@ Since the doors are replaced on save-loads, if you are focused on a door when
 loading, the text will be briefly incorrect. Similarly for the map marker, you
 will have to go into another door or toggle active quest for it to update after
 loading.
+
+See vault87 section about adding quest markers for some of the main quests.
 
 #### Pits / Ledges / bridges
 
@@ -242,6 +229,27 @@ which means you'd have to circle around to however you got to alternate Tenpenny
 But that's a small price for the other doors you usually can only see for
 3 in-game days.
 
+#### Citadel
+
+The front gate only opens on quest completion. It is also a spot where
+dad and the scientist can get confused on finding their way to Jefferson.
+
+>Note: you CAN access Citadel gate by going around back. This can be
+done with a very specific OOB route, or by clipping.
+
+#### Jefferson / Taft
+
+The front is swapped with the Broken Steel variant after completing the
+main quest. So both are left out of randomizing. However this means the
+inside of vanilla Jefferson may become inaccesible. As long as a primary
+Broken Steel quest isn't on both of the inside doors, this should be fine.
+
+The valve inside of pipes, and the quest marker,
+is actually outside in the main world.
+The pipes are locked off before and after the main quest section
+of the game, on top of being a 1-way. Taft is also cut off before and after
+the main quests, and during the middle of traversing Taft itself.
+
 #### Randomizer saves are their own
 
 Trying to load a save you had a randomizer enabled on can cause major issues
@@ -264,9 +272,7 @@ middle of the wasteland.
 
 Some NPCs need a little nudge by going to the correct activators or spots to
 progress the quest. In some cells, like the scientist making their way to
-Jefferson, certain layouts or pathing may stall them in place. Li gets a bit
-lost at the end of Waters Of Life and needs the player to go in-and-out of the
-Taft sewer next to the Citadel.
+Jefferson, certain layouts or pathing may stall them in place.
 
 Some quests may require game and/or quests/stage knowledge, best to make safety
 saves if you're unsure.
