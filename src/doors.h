@@ -691,9 +691,12 @@ const uint32_t brokensteel_doors[] = {
     0xFF0068E6, 0xFF0068E4,    // hanks
     0xFF00734D, 0xFF007340,    // random silo top-mid of map by water reservoir
     0xFF006EFA, 0xFF006EF9,    0xFF001F45, 0xFF001F0E,
-    0xFF00248D, 0xFF00248F,    0xFF0043A3, 0xFF00406A,
     0xFF00406B, 0xFF0045B4,    0xFF00406E, 0xFF0045B3,
-    0xFF00734E, 0xFF00733F,
+    0xFF00248D, 0xFF00248F,    0xFF00734E, 0xFF00733F,
+
+    // 0xFF0043A3, 0xFF00406A,
+    // front door to jefferson gets swapped out by vanilla after end game
+    // becomes 1-way
 
     // 0xFF006852, 0xFF006851,
     // ^ hatch to hanks electrical supply

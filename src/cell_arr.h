@@ -1602,7 +1602,8 @@ const uint32_t cell_010011C3[] = {
 */
 
 const uint32_t cell_01003D64[] = {
-  0xFF00406A, 0xFF00406B, 0xFF00406E,
+  0xFF00406B, 0xFF00406E,
+  /*0xFF00406A, front door swaps with base game*/
   0x0,
 };
 
