@@ -936,15 +936,15 @@ const uint32_t cell_000235F1[] = {
 *};
 *
 *const uint32_t cell_000236DA[] = {
-*  0x0003E8F8, becomes 1 door cell
-*  0x0004665B, hall columns
+*  0x0003E8F8, other side has invis walls below -v
+*  0x0004665B, hall columns above ^
 *  0x0,
 *};
 */
 
 const uint32_t cell_000236DB[] = {
-  0x0003A572, 0x0001F1FA,
-  0x0003AF6D, 0x00096177,
+  0x0003A572, 0x0001F1FA, 0x00096177,
+  /*0x0003AF6D, invis wall*/
   0x0,
 };
 

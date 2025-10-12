@@ -256,7 +256,7 @@ const uint32_t fo3base_doors[] = {
     0x0003D3DF, 0x0003D811,    0x0003179C, 0x000317A4,
     0x00043F60, 0x00044248,    0x000185FB, 0x00018609,
     0x00074F5A, 0x000B5CFB,    0x00004440, 0x00014A88,
-    0x0003A572, 0x000468E6,    0x0003AF6D, 0x0003E8F8,
+    0x0003A572, 0x000468E6,
     0x00096177, 0x00095F5B,    0x0001865B, 0x00018674,
     0x0002BCA0, 0x0002BD2B,    0x000603F3, 0x000752D7,
     0x000603FE, 0x0004EDAB,    0x00050D6A, 0x0005043B,
@@ -382,9 +382,9 @@ const uint32_t fo3base_doors[] = {
     // entrance is quest locked.
     // since both sides are a no go, don't touch gnr proper either.
 
-    // 0x0004665B, 0x000467BE,
+    // 0x0004665B, 0x000467BE, 0x0003AF6D, 0x0003E8F8,
     // ^ capitol building 'hall of columns' / 'conference hall'
-    // 4665b side, invisible walls before script or quest
+    // 4665b / 3AF6D side, invisible walls before script or quest
 
     // 0x0001BD32, 0x00018626, 0x0007201E, 0x00072020,
     // ^ washington monument base ^ elevator
