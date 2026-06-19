@@ -20,10 +20,10 @@ uint32_t src_doors[TOT_DOORS], dst_doors[TOT_DOORS],
          src_rnd = 0, dst_rnd = 0,
          comp_src_id = 0, comp_dst_id = 0;
 
-  buf_i = 16;
+  buf_i = 20;
   i = 0;
   //while (buf_i < buf[11] * 2) {
-  while (i < buf[15]) {
+  while (i < buf[19]) {
     if (buf[buf_i] == 0)
       break;
     src_doors[i] = buf[buf_i];
