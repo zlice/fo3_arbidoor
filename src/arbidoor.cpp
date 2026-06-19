@@ -336,7 +336,7 @@ void shuffle_doors() {
 
       while (cell_depth > 0) {
         cur_cell = (uint32_t*)nxt_cells[cell_depth];
-        cur_cell_door = cur_cell[0];
+        cur_cell_door = cur_cell ? cur_cell[0] : 0;
 
         if (seen[(uint32_t)cur_cell] == 0) {
           seen[(uint32_t)cur_cell] = 1;
