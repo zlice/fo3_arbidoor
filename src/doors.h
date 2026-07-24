@@ -681,7 +681,6 @@ const uint32_t zeta_doors[] = {
 
 const uint32_t brokensteel_doors[] = {
     0xFF003C68, 0xFF00BE0C,    0xFF007CA6, 0xFF00739B,
-    0xFF0022ED, 0xFF00234A,    0xFF0022F9, 0xFF002349,
     0xFF00248B, 0xFF00248A,    0xFF00248C, 0xFF006EFB,
     0xFF00444D, 0xFF004449,    0xFF008AF8, 0xFF008A11,
     0xFF000FC9, 0xFF004543,    // stairs from prez tunnel
@@ -692,6 +691,10 @@ const uint32_t brokensteel_doors[] = {
     0xFF006EFA, 0xFF006EF9,    0xFF001F45, 0xFF001F0E,
     0xFF00406B, 0xFF0045B4,    0xFF00406E, 0xFF0045B3,
     0xFF00248D, 0xFF00248F,    0xFF00734E, 0xFF00733F,
+    0xFF0022F9, 0xFF002349,
+
+    // 0xFF0022ED, 0xFF00234A,
+    // ^ end of DLC, door isn't really reachable from below, npcs get stuck
 
     // 0xFF0043A3, 0xFF00406A,
     // front door to jefferson gets swapped out by vanilla after end game
