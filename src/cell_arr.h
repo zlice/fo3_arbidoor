@@ -1706,15 +1706,17 @@ const uint32_t cell_0100133A[] = {
 };
 
 const uint32_t cell_0100133B[] = {
-  0xFF001505, 0xFF001507, 0xFF00602D,
-  0xFF00602E, 0xFF006973, 0xFF00A36E,
+  0xFF001505, 0xFF00602D,
+  0xFF00602E, 0xFF006973,
   /*0xFF001506, uptown mill quest lock*/
+  /*0xFF00A36E, 0xFF001507, downtown/uptown doors, quest locked*/
   0x0,
 };
 
 const uint32_t cell_0100133F[] = {
-  0xFF00150A, 0xFF00150E, 0xFF009AFE,
-  /*0xFF001503, 0xFF00150B, midea and pitt gate*/
+  0xFF001503, 0xFF00150A, // midea, mill
+  /*0xFF00150B, pitt gate*/
+  /*0xFF009AFE, 0xFF00150E, downtown/uptown doors, quest locked, not reachable from downtown*/
   0x0,
 };
 
