@@ -25,7 +25,7 @@
 
 using namespace std;
 
-#define ARBVERSION 9
+#define ARBVERSION 10
 
 // 0-based start of DLC in areas[] below
 // areas_enabled[DLC_START] = anchorage
