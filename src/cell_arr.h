@@ -469,10 +469,12 @@ const uint32_t cell_00017F5B[] = {
   0x0,
 };
 
-const uint32_t cell_00017F5F[] = {
-  0x0003D824, 0x0003D811,
-  0x0,
-};
+/*
+*const uint32_t cell_00017F5F[] = {
+*  0x0003D824, 0x0003D811, // only unlockable from 1 side, mechanist forge
+*  0x0,
+*};
+*/
 
 const uint32_t cell_00017F61[] = {
   0x000A5401, 0x0003D3DF, 0x0003D22A,
